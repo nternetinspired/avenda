@@ -239,7 +239,7 @@ require('time-grunt')(grunt);
   grunt.registerTask('test', []);
 
   // Primary Task definition
-  grunt.registerTask('deploy', ['clean','images','sass:dist','postcss','test','uglify','copy','jekyll','sftp']);
+  grunt.registerTask('build', ['clean','images','sass:dist','postcss','test','uglify','copy','jekyll']);
   grunt.registerTask('dev', ['clean','images','sass:dev','postcss','concat:dev','copy','jekyll','browserSync','watch']);
   grunt.registerTask('dist', ['clean','sass:dist','postcss','test','uglify','copy','jekyll']);
 
