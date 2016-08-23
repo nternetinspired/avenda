@@ -1089,7 +1089,7 @@ they look the same but don't carry the semantic baggage.
     max-width: none;
     width: 100%; }
   .overlay--root::before {
-    background: rgba(17, 17, 17, 0.65); }
+    background: rgba(17, 17, 17, 0.7); }
   .overlay--primary::before {
     background: rgba(123, 137, 137, 0.75); }
   .overlay--complement::before {

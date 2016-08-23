@@ -30,7 +30,7 @@
     @extend %overlay;
 
     &::before {
-      background: transparentize($color-body, .35);
+      background: transparentize($color-body, .3);
     }
   }
 
