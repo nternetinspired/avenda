@@ -1,0 +1,24 @@
+
+/* ==========================================================================
+	SECTION (CONTENT)
+============================================================================= */
+
+// Gives the content sections some breathing space.
+.section {
+
+  @extend %margin-off;
+  padding-top: spacer(12);
+  padding-bottom: spacer(12);
+
+  &--lg {
+    @extend %margin-off;
+    padding-top: spacer(16);
+    padding-bottom: spacer(16);
+  }
+
+  &--sm {
+    @extend %margin-off;
+    padding-top: spacer(6);
+    padding-bottom: spacer(6);
+  }
+}

@@ -1,0 +1,18 @@
+
+<article class="testimonial" itemprop="review" itemscope itemtype="http://schema.org/Review">
+
+  <blockquote>
+    <h1 class="fw-600 h5 margin-off">{{ post.title }}</h1>
+    <div class="margin-top--sm" itemprop="reviewBody">
+      {{ post.content }}
+    </div>
+  </blockquote>
+
+  <div class="attribution">
+    <img class="author-img img--circular" src="{{ post.author-img | prepend: site.baseurl}}" alt="{{ post.author }}">
+    <cite class="muted" itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <span itemprop="name">{{ post.author }}</span>
+    </cite>
+  </div>
+
+</article>

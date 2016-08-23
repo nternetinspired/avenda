@@ -1,0 +1,11 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+.tmp
+.bk
+.DS_Store
+_secret.json
+
+Gemfile.lock
+node_modules
+scss-lint-report.xml

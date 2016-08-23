@@ -1,0 +1,40 @@
+
+/* ==========================================================================
+    QUOTES
+   ========================================================================== */
+
+/* BLOCK QUOTES */
+blockquote {
+  border-left: 2px solid $color-border;
+  padding: 0 spacer();
+
+  &::before,
+  &::after {
+    content: '';
+  }
+}
+
+/* CITATIONS */
+cite {
+  @include font-size($scale-down1, null, null);
+  font-weight: $weight-strong;
+  font-family: $font-serif;
+
+  &::before {
+    content: '\2014';
+    margin-right: .125em;
+  }
+}
+
+/* INLINE QUOTES */
+q {
+  quotes: '\2018' '\2019';
+
+  &::before {
+    content: '\2018';
+  }
+
+  &::after {
+    content: '\2019';
+  }
+}

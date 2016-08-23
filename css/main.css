@@ -1,0 +1,1264 @@
+@charset "UTF-8";
+/* =========================================================================
+   Name:       Embrace
+   Version:    0.0.3
+   Created:    December 2015
+   Author:     Seth Warburton - @nternetinspired
+   Copyright:  Seth Warburton - (C) 2015-2016
+   Licenses:   MIT & DBAD
+  ========================================================================== */
+/* =============================================================================
+  TEMPLATE VARIABLES
+  Import project variables first, so they're available globally.
+  Want to change something? Check here first, there's probably a variable ;)
+============================================================================= */
+/* ROOT VARIABLES
+============================================================================= */
+/* FONT STACK VARIABLES
+============================================================================= */
+/* FONT WEIGHT VARIABLES
+============================================================================= */
+/* TYPOGRAPHIC VARIABLES
+============================================================================= */
+/* COLOUR VARIABLES
+============================================================================= */
+/* SHAPE(?) VARIABLES - $TODO: Name this section better.
+============================================================================= */
+/* GRID VARIABLES
+============================================================================= */
+/* WIDTH & BREAKPOINT VARIABLES
+============================================================================= */
+/* =============================================================================
+  GLOBAL PARTIALS
+  Mixins, helpers, functions; things that don't belong anywhere else! Ideally,
+  these generic partials won't output anything directly.
+============================================================================= */
+/* ==========================================================================
+    A GENTLE RESET
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline; }
+
+/* Correct html5 display definition for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/* ==========================================================================
+    FONTS
+   ========================================================================== */
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"), local("Raleway-Regular"), url("../fonts/raleway-v11-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v11-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* raleway-italic - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Raleway Italic"), local("Raleway-Italic"), url("../fonts/raleway-v11-latin-italic.woff2") format("woff2"), url("../fonts/raleway-v11-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* raleway-600 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Raleway SemiBold"), local("Raleway-SemiBold"), url("../fonts/raleway-v11-latin-600.woff2") format("woff2"), url("../fonts/raleway-v11-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* raleway-700 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Raleway Bold"), local("Raleway-Bold"), url("../fonts/raleway-v11-latin-700.woff2") format("woff2"), url("../fonts/raleway-v11-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* ==========================================================================
+    HELPER CLASSES
+   ========================================================================== */
+/* Clearfix the parent of floated elements. */
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block; }
+
+/* Hide an element but leave it available to speaking browsers. */
+.sr-only {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+  .sr-only--focusable:active, .sr-only--focusable:focus {
+    position: static;
+    clip: auto;
+    height: auto;
+    width: auto;
+    margin: 0;
+    overflow: visible; }
+
+/* Vertically and horizontally center a thing */
+.center {
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+/* Mute an object by reducing its opacity. */
+.muted,
+.disabled {
+  opacity: .5; }
+
+/* Disable inputs and links */
+.disabled {
+  pointer-events: none; }
+
+/* ==========================================================================
+    MODULAR SCALE
+============================================================================= */
+/* ==========================================================================
+    ELEMENT WIDTHS
+    // scss-lint:disable EmptyLineBetweenBlocks PlaceholderInExtend SingleLinePerProperty
+   ========================================================================== */
+.width-copy {
+  max-width: 45em; }
+
+.one-whole {
+  width: 100%; }
+
+.one-half, .two-quarters, .three-sixths {
+  width: 50%; }
+
+.one-third, .two-sixths {
+  width: 33.333%; }
+
+.two-thirds, .four-sixths {
+  width: 66.666%; }
+
+.one-quarter {
+  width: 25%; }
+
+.three-quarters {
+  width: 75%; }
+
+.one-fifth {
+  width: 20%; }
+
+.two-fifths {
+  width: 40%; }
+
+.three-fifths {
+  width: 60%; }
+
+.four-fifths {
+  width: 80%; }
+
+.one-sixth {
+  width: 16.666%; }
+
+.five-sixths {
+  width: 83.333%; }
+
+.push-one-half, .push-two-quarters, .push-three-sixths {
+  margin-left: 50%; }
+
+.push-one-third, .push-two-sixths {
+  margin-left: 33.333%; }
+
+.push-two-thirds, .push-four-sixths {
+  margin-left: 66.666%; }
+
+.push-one-quarter {
+  margin-left: 25%; }
+
+.push-three-quarters {
+  margin-left: 75%; }
+
+.push-one-fifth {
+  margin-left: 20%; }
+
+.push-two-fifths {
+  margin-left: 40%; }
+
+.push-three-fifths {
+  margin-left: 60%; }
+
+.push-four-fifths {
+  margin-left: 80%; }
+
+.push-one-sixth {
+  margin-left: 16.666%; }
+
+.push-five-sixths {
+  margin-left: 83.333%; }
+
+@media screen and (min-width: 30em) {
+  .sm-one-whole {
+    width: 100%; }
+  .sm-one-half, .sm-two-quarters, .sm-three-sixths {
+    width: 50%; }
+  .sm-one-third, .sm-two-sixths {
+    width: 33.333%; }
+  .sm-two-thirds, .sm-four-sixths {
+    width: 66.666%; }
+  .sm-one-quarter {
+    width: 25%; }
+  .sm-three-quarters {
+    width: 75%; }
+  .sm-one-fifth {
+    width: 20%; }
+  .sm-two-fifths {
+    width: 40%; }
+  .sm-three-fifths {
+    width: 60%; }
+  .sm-four-fifths {
+    width: 80%; }
+  .sm-one-sixth {
+    width: 16.666%; }
+  .sm-five-sixths {
+    width: 83.333%; }
+  .sm-push-one-half, .sm-push-two-quarters, .sm-push-three-sixths {
+    margin-left: 50%; }
+  .sm-push-one-third, .sm-push-two-sixths {
+    margin-left: 33.333%; }
+  .sm-push-two-thirds, .sm-push-four-sixths {
+    margin-left: 66.666%; }
+  .sm-push-one-quarter {
+    margin-left: 25%; }
+  .sm-push-three-quarters {
+    margin-left: 75%; }
+  .sm-push-one-fifth {
+    margin-left: 20%; }
+  .sm-push-two-fifths {
+    margin-left: 40%; }
+  .sm-push-three-fifths {
+    margin-left: 60%; }
+  .sm-push-four-fifths {
+    margin-left: 80%; }
+  .sm-push-one-sixth {
+    margin-left: 16.666%; }
+  .sm-push-five-sixths {
+    margin-left: 83.333%; } }
+
+@media screen and (min-width: 45em) {
+  .md-one-whole {
+    width: 100%; }
+  .md-one-half, .md-two-quarters, .md-three-sixths {
+    width: 50%; }
+  .md-one-third, .md-two-sixths {
+    width: 33.333%; }
+  .md-two-thirds, .md-four-sixths {
+    width: 66.666%; }
+  .md-one-quarter {
+    width: 25%; }
+  .md-three-quarters {
+    width: 75%; }
+  .md-one-fifth {
+    width: 20%; }
+  .md-two-fifths {
+    width: 40%; }
+  .md-three-fifths {
+    width: 60%; }
+  .md-four-fifths {
+    width: 80%; }
+  .md-one-sixth {
+    width: 16.666%; }
+  .md-five-sixths {
+    width: 83.333%; }
+  .md-push-one-half, .md-push-two-quarters, .md-push-three-sixths {
+    margin-left: 50%; }
+  .md-push-one-third, .md-push-two-sixths {
+    margin-left: 33.333%; }
+  .md-push-two-thirds, .md-push-four-sixths {
+    margin-left: 66.666%; }
+  .md-push-one-quarter {
+    margin-left: 25%; }
+  .md-push-three-quarters {
+    margin-left: 75%; }
+  .md-push-one-fifth {
+    margin-left: 20%; }
+  .md-push-two-fifths {
+    margin-left: 40%; }
+  .md-push-three-fifths {
+    margin-left: 60%; }
+  .md-push-four-fifths {
+    margin-left: 80%; }
+  .md-push-one-sixth {
+    margin-left: 16.666%; }
+  .md-push-five-sixths {
+    margin-left: 83.333%; } }
+
+@media screen and (min-width: 70em) {
+  .lg-one-whole {
+    width: 100%; }
+  .lg-one-half, .lg-two-quarters, .lg-three-sixths {
+    width: 50%; }
+  .lg-one-third, .lg-two-sixths {
+    width: 33.333%; }
+  .lg-two-thirds, .lg-four-sixths {
+    width: 66.666%; }
+  .lg-one-quarter {
+    width: 25%; }
+  .lg-three-quarters {
+    width: 75%; }
+  .lg-one-fifth {
+    width: 20%; }
+  .lg-two-fifths {
+    width: 40%; }
+  .lg-three-fifths {
+    width: 60%; }
+  .lg-four-fifths {
+    width: 80%; }
+  .lg-one-sixth {
+    width: 16.666%; }
+  .lg-five-sixths {
+    width: 83.333%; }
+  .lg-push-one-half, .lg-push-two-quarters, .lg-push-three-sixths {
+    margin-left: 50%; }
+  .lg-push-one-third, .lg-push-two-sixths {
+    margin-left: 33.333%; }
+  .lg-push-two-thirds, .lg-push-four-sixths {
+    margin-left: 66.666%; }
+  .lg-push-one-quarter {
+    margin-left: 25%; }
+  .lg-push-three-quarters {
+    margin-left: 75%; }
+  .lg-push-one-fifth {
+    margin-left: 20%; }
+  .lg-push-two-fifths {
+    margin-left: 40%; }
+  .lg-push-three-fifths {
+    margin-left: 60%; }
+  .lg-push-four-fifths {
+    margin-left: 80%; }
+  .lg-push-one-sixth {
+    margin-left: 16.666%; }
+  .lg-push-five-sixths {
+    margin-left: 83.333%; } }
+
+@media screen and (min-width: 90em) {
+  .xl-one-whole {
+    width: 100%; }
+  .xl-one-half, .xl-two-quarters, .xl-three-sixths {
+    width: 50%; }
+  .xl-one-third, .xl-two-sixths {
+    width: 33.333%; }
+  .xl-two-thirds, .xl-four-sixths {
+    width: 66.666%; }
+  .xl-one-quarter {
+    width: 25%; }
+  .xl-three-quarters {
+    width: 75%; }
+  .xl-one-fifth {
+    width: 20%; }
+  .xl-two-fifths {
+    width: 40%; }
+  .xl-three-fifths {
+    width: 60%; }
+  .xl-four-fifths {
+    width: 80%; }
+  .xl-one-sixth {
+    width: 16.666%; }
+  .xl-five-sixths {
+    width: 83.333%; }
+  .xl-push-one-half, .xl-push-two-quarters, .xl-push-three-sixths {
+    margin-left: 50%; }
+  .xl-push-one-third, .xl-push-two-sixths {
+    margin-left: 33.333%; }
+  .xl-push-two-thirds, .xl-push-four-sixths {
+    margin-left: 66.666%; }
+  .xl-push-one-quarter {
+    margin-left: 25%; }
+  .xl-push-three-quarters {
+    margin-left: 75%; }
+  .xl-push-one-fifth {
+    margin-left: 20%; }
+  .xl-push-two-fifths {
+    margin-left: 40%; }
+  .xl-push-three-fifths {
+    margin-left: 60%; }
+  .xl-push-four-fifths {
+    margin-left: 80%; }
+  .xl-push-one-sixth {
+    margin-left: 16.666%; }
+  .xl-push-five-sixths {
+    margin-left: 83.333%; } }
+
+/* =============================================================================
+  ELEMENT STYLES
+  Low-level styles applied directly to named html elements only, to keep
+  specificity low.
+============================================================================= */
+/* ==========================================================================
+    DOCUMENT ROOT
+   ========================================================================== */
+html {
+  background: #39cccc;
+  background: -webkit-linear-gradient(top, #39cccc 0%, #227a7a 100%);
+  background: linear-gradient(to bottom, #39cccc 0%, #227a7a 100%);
+  box-sizing: border-box;
+  color: #fff;
+  min-height: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%; }
+
+/*
+ * Border-box *all the things*, as suggested in:
+ * http:// paulirish.com/2012/box-sizing-border-box-ftw
+ */
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+* + * {
+  margin-top: 1.5em; }
+
+/* ==========================================================================
+    BODY
+   ========================================================================== */
+body {
+  color: #111;
+  font: 400 1em/1.5 "Raleway", "avenir next", sans-serif;
+  margin: 0;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+::-moz-selection {
+  background-color: #7b8989;
+  color: #111;
+  text-shadow: none; }
+
+::selection {
+  background-color: #7b8989;
+  color: #111;
+  text-shadow: none; }
+
+/* ==========================================================================
+   	CODE
+   ========================================================================== */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace; }
+
+pre {
+  box-shadow: 0 0 0 1px #e4e4e4 inset;
+  background-color: #ffc;
+  border-radius: 0.5em;
+  display: inline-block;
+  font-family: inherit;
+  overflow: scroll;
+  padding: 1.5em; }
+
+/* ==========================================================================
+   	FIGURES
+   ========================================================================== */
+figure figcaption {
+  margin-top: 0.375em; }
+
+/* ==========================================================================
+    FORMS
+   ========================================================================== */
+/* Standardise font rendering */
+button,
+input,
+select,
+textarea {
+  font: inherit; }
+
+label {
+  display: block;
+  margin: 0 auto 0.375em;
+  max-width: 100%; }
+
+progress,
+meter {
+  display: block;
+  width: 100%;
+  height: 1.5em; }
+
+input,
+textarea {
+  display: block; }
+
+select {
+  -webkit-appearance: textfield; }
+
+/* Allow only vertical resizing of textareas. */
+textarea {
+  height: auto;
+  resize: vertical;
+  -webkit-appearance: none; }
+
+/* De-bork search fields */
+[type="search"] {
+  -webkit-appearance: textfield; }
+  [type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+[type="radio"],
+[type="checkbox"] {
+  display: inline-block;
+  margin-right: .5em; }
+
+/* Make range inputs behave like textual form controls. */
+[type="range"] {
+  display: block;
+  width: 100%; }
+
+/* Fix cursor style of increment and decrement buttons in Chrome. */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: 400; }
+
+/*
+* Size increments are set according to our chosen modular scale.
+* Increments for h4 and h5 are zeroed out (1em) at smaller sizes
+* to maintain legibility.
+*/
+h1, .h1 {
+  line-height: 1.06114;
+  margin-top: 0em;
+  font-size: 2.82715em; }
+
+h2, .h2 {
+  line-height: 1.50045;
+  margin-top: 0.75023em;
+  font-size: 1.9994em; }
+
+h3, .h3 {
+  line-height: inherit;
+  font-size: 1.414em; }
+
+h4, .h4 {
+  line-height: 1.06082;
+  margin-top: 1.06082em;
+  font-size: 1.414em; }
+
+h5, .h5 {
+  line-height: 1.5;
+  margin-top: 1.5em;
+  font-size: 1em; }
+
+h6, .h6 {
+  line-height: 2.121;
+  margin-top: 2.121em;
+  font-size: 0.70721em; }
+
+/* ==========================================================================
+    IMAGES
+   ========================================================================== */
+/* Fluid images. */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic; }
+
+/* Don't ignore `width` and/or `height` attributes if they are present. */
+[width],
+[height] {
+  max-width: none; }
+
+/* Don't use the Owl selector on image elements immediateley following a <script>
+   to prevent an issue in image grids caused by mod_pagespeed img defer script.
+*/
+script + img {
+  margin-top: 0 !important; }
+
+/* ==========================================================================
+    LINKS
+   ========================================================================== */
+a {
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  color: #444444;
+  text-decoration: none; }
+  a:hover, a:focus {
+    color: #5e5e5e; }
+  a:active, a.active {
+    color: #444444; }
+
+/* ==========================================================================
+    LISTS
+   ========================================================================== */
+dt {
+  font-weight: 600; }
+
+/*
+* There's a reason it's called 'hanging punctuation'and bullets should be outdented.
+* See: http://www.markboulton.co.uk/journal/five-simple-steps-to-better-typography-part-2
+*/
+ul {
+  list-style-position: outside; }
+
+li > ul,
+li > ol {
+  margin: 0 0 0 1.5em; }
+
+/* ==========================================================================
+    QUOTES
+   ========================================================================== */
+/* BLOCK QUOTES */
+blockquote {
+  border-left: 2px solid #e4e4e4;
+  padding: 0 1.5em; }
+  blockquote::before, blockquote::after {
+    content: ''; }
+
+/* CITATIONS */
+cite {
+  font-size: 0.70721em;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", serif; }
+  cite::before {
+    content: '\2014';
+    margin-right: .125em; }
+
+/* INLINE QUOTES */
+q {
+  quotes: '\2018' '\2019'; }
+  q::before {
+    content: '\2018'; }
+  q::after {
+    content: '\2019'; }
+
+/* ==========================================================================
+    RULES
+   ========================================================================== */
+hr {
+  background: #e4e4e4;
+  border: 0;
+  display: block;
+  height: 1px;
+  line-height: 1.5; }
+
+/* ==========================================================================
+    TABLES
+   ========================================================================== */
+table {
+  width: 100%; }
+
+thead {
+  border-bottom: 1px solid #e4e4e4; }
+
+th {
+  font-weight: 600; }
+
+th,
+td {
+  padding: 0.375em;
+  text-align: left; }
+
+/* ==========================================================================
+    TYPOGRAPHY $TODO - Break this file up.
+   ========================================================================== */
+/* PARAGRAPHS */
+p {
+  orphans: 3;
+  widows: 3;
+  word-wrap: break-word; }
+
+/* ABBREVIATIONS */
+abbr,
+.caps {
+  text-transform: uppercase; }
+
+small,
+.small {
+  line-height: inherit;
+  font-size: 0.75em; }
+
+/* SUPER AND SUBSCRIPTS */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+/* BOLDY STUFF */
+b,
+strong {
+  font-weight: 600; }
+
+/* =============================================================================
+  UTILITIES
+  One-trick ponies, these are single-purpose utlility classes designed to
+  trump any conflicting style applied to an element. Partials are named after
+  the CSS property they target.
+============================================================================= */
+/* ==========================================================================
+    BACKGROUND COLOR
+    // scss-lint:disable ImportantRule
+   ========================================================================== */
+.background-color {
+  background-color: #f9f9f8; }
+
+.background-color--alt {
+  background-color: #e4e4e4; }
+
+.background-color--body {
+  background-color: #fff; }
+
+.background-color--root {
+  background-color: #111; }
+
+/* ==========================================================================
+    BORDER
+   ========================================================================== */
+.border-top {
+  border-top: 5px solid #e4e4e4; }
+
+.border-right {
+  border-right: 5px solid #e4e4e4; }
+
+.border-bottom {
+  border-bottom: 5px solid #e4e4e4; }
+
+.border-left {
+  border-left: 5px solid #e4e4e4; }
+
+/* ==========================================================================
+    TEXT COLOUR CONTROL STYLES
+    // scss-lint:disable ImportantRule
+   ========================================================================== */
+/* Project default colours */
+.color--body {
+  color: #111; }
+
+.color--background-body {
+  color: #fff; }
+
+.color--root {
+  color: #fff !important; }
+
+.color--background-root {
+  color: #111; }
+
+/* Our brand palette colours */
+.color--primary {
+  color: #7b8989 !important; }
+
+.color--secondary {
+  color: #897b89 !important; }
+
+/* Contextual colours */
+.color--warning {
+  color: #ffc107; }
+
+/* ==========================================================================
+    Columns
+   ========================================================================== */
+.columns-2 {
+  -webkit-columns: 45em 2;
+     -moz-columns: 45em 2;
+          columns: 45em 2; }
+
+/* ==========================================================================
+    FLOATS
+   ========================================================================== */
+.float-right,
+.img--right {
+  float: right; }
+
+.float-left,
+.img--left {
+  float: left; }
+
+.float-none {
+  float: none; }
+
+/* =============================================================================
+    MARGIN TRUMPS
+    // scss-lint:disable ImportantRule
+============================================================================= */
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.margin-off, .section, .section--lg, .section--sm {
+  margin-top: 0 !important; }
+
+.margins-off, .padding-off-all, .margins-off > *, .padding-off-all > * {
+  margin-top: 0 !important; }
+
+.margin-top--sm {
+  margin-top: 0.75em; }
+
+/* =============================================================================
+    PADDING TRUMPS
+    // scss-lint:disable ImportantRule
+============================================================================= */
+.padding-off {
+  padding: 0 !important; }
+
+/* ==========================================================================
+    TEXT ALIGNMENT CONTROL STYLES
+   ========================================================================== */
+/* Text alignment */
+.text-align--center {
+  text-align: center; }
+
+.text-align--left {
+  text-align: left; }
+
+@media screen and (min-width: 45em) {
+  .md-text-align--left {
+    text-align: left; } }
+
+.text-align--right {
+  text-align: right; }
+
+@media screen and (min-width: 45em) {
+  .md-text-align--right {
+    text-align: right; } }
+
+/* ==========================================================================
+    TEXT CASE CONTROL STYLES
+   ========================================================================== */
+.tt-titlecase {
+  text-transform: capitalize; }
+
+.tt-uppercase {
+  text-transform: uppercase; }
+
+/* ==========================================================================
+    FONT WEIGHT
+   ========================================================================== */
+.fw-400 {
+  font-weight: 400; }
+
+.fw-600 {
+  font-weight: 600; }
+
+/* =============================================================================
+  PATTERNS
+  Re-usable objects that bring recurring CSS patterns into discrete and easily
+  maintainable modules. If your pattern grows to more than 20 lines you should
+  probably consider making it a component instead.
+============================================================================= */
+/* ==========================================================================
+    ARTICLES
+   ========================================================================== */
+.article-body a {
+  text-decoration: underline; }
+
+/* ==========================================================================
+    CONTENT CONTAINER
+   ========================================================================== */
+.container {
+  padding-left: 5%;
+  padding-right: 5%; }
+
+/* =============================================================================
+	FLEX GRID
+============================================================================= */
+.grid {
+  display: -webkit-box;
+  display: flex;
+  flex-flow: row wrap; }
+  .grid-item {
+    margin-top: 0;
+    -webkit-box-flex: 0;
+            flex: 0 1 auto; }
+  .grid--grow .grid-item {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto; }
+  .grid--bottom {
+    -webkit-box-align: end;
+                -ms-grid-row-align: flex-end;
+            align-items: flex-end; }
+  .grid--middle {
+    -webkit-box-align: center;
+                -ms-grid-row-align: center;
+            align-items: center; }
+  .grid:not(.gutter-off) {
+    margin: 0 0 0 -1.5em; }
+    .grid:not(.gutter-off) > .grid-item {
+      padding-left: 1.5em;
+      margin-top: 1.5em; }
+
+/* ==========================================================================
+    HEADINGS
+   ========================================================================== */
+/*
+These are just utility classes to extend header element styles to other elements, so
+they look the same but don't carry the semantic baggage.
+*/
+/* A styled heading */
+.h--styled {
+  margin-bottom: 3em;
+  margin-top: 0.75em;
+  padding: 3em 0;
+  position: relative; }
+  .h--styled::before {
+    top: -.125em;
+    left: 50%; }
+  .h--styled::after {
+    bottom: -.125em;
+    left: 50%; }
+  .h--styled::after, .h--styled::before {
+    border-bottom: 2px solid #3D9970;
+    content: '';
+    display: block;
+    margin-left: -2em;
+    position: absolute;
+    width: 4em; }
+
+/* ==========================================================================
+	IMAGES
+   ========================================================================== */
+.img--bordered {
+  border: 3px solid #e4e4e4; }
+
+.img--circular {
+  border-radius: 50%; }
+
+.img--cover {
+  background-size: cover;
+  max-width: none;
+  width: 100%; }
+
+.img--rounded {
+  border-radius: 0.5em; }
+
+/*
+* Image placement variations.
+* floated images typically need a margin so we extend the
+* generic float classes here.
+*/
+.img--right {
+  margin-left: 1.5em; }
+
+.img--left {
+  margin-right: 1.5em; }
+
+/* ==========================================================================
+    LINK STYLES
+   ========================================================================== */
+.a--alt {
+  color: #3D9970; }
+
+.a--readmore {
+  font-style: italic; }
+
+/* ==========================================================================
+    LISTS
+   ========================================================================== */
+.list--inline {
+  margin-left: -.75em;
+  margin-right: -.75em; }
+  .list--inline li {
+    display: inline-block;
+    margin: 0 0.75em; }
+
+.list--styled li:before {
+  content: '☞';
+  margin: 0 0.75em 0 0; }
+  @media screen and (min-width: 45em) {
+    .list--styled li:before {
+      margin: 0 0 0 -1.5em;
+      position: absolute; } }
+
+.list--underlined li {
+  padding: 0.75em 0; }
+  .list--underlined li:not(:first-child) {
+    border-top: 1px solid #e4e4e4; }
+
+.list--striped li:not(:last-child) {
+  border-bottom: 1px solid #e4e4e4; }
+
+.list--unstyled,
+.list--inline,
+.list--styled,
+.list--underlined,
+.list--striped {
+  list-style-type: none; }
+
+/* ==========================================================================
+    SITE LOGO
+   ========================================================================== */
+.logo {
+  letter-spacing: .125em; }
+  .logo-link {
+    color: #fff; }
+
+/* ==========================================================================
+    NAVIGATION
+   ========================================================================== */
+.pager, .pagination,
+.nav {
+  font-weight: 600;
+  margin-left: -.75em;
+  margin-right: -.75em; }
+  .pager a, .pagination a,
+  .nav a {
+    color: #3D9970;
+    display: block;
+    margin: 0;
+    padding: 0.75em;
+    text-decoration: none; }
+    .pager a.active, .pagination a.active, .pager a:active, .pagination a:active, .pager a:hover, .pagination a:hover, .pager a:focus, .pagination a:focus,
+    .nav a.active,
+    .nav a:active,
+    .nav a:hover,
+    .nav a:focus {
+      color: #897b89; }
+  .pager li, .pagination li,
+  .nav li {
+    display: inline-block;
+    margin: 0; }
+    .pager li:not(:last-child), .pagination li:not(:last-child),
+    .nav li:not(:last-child) {
+      margin-right: .5em;
+      position: relative; }
+      .pager li:not(:last-child)::after, .pagination li:not(:last-child)::after,
+      .nav li:not(:last-child)::after {
+        color: #897b89;
+        content: '•';
+        display: inline-block;
+        position: absolute;
+        top: .75em;
+        right: -.5em; }
+
+/* ==========================================================================
+    OVERLAYS
+   ========================================================================== */
+.overlay,
+.overlay--root,
+.overlay--primary,
+.overlay--complement {
+  position: relative; }
+  .overlay::before,
+  .overlay--root::before,
+  .overlay--primary::before,
+  .overlay--complement::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .overlay-img {
+    background-position: 50% 50%;
+    background-size: cover;
+    max-width: none;
+    width: 100%; }
+  .overlay--root::before {
+    background: rgba(17, 17, 17, 0.65); }
+  .overlay--primary::before {
+    background: rgba(123, 137, 137, 0.75); }
+  .overlay--complement::before {
+    background: rgba(61, 153, 112, 0.75); }
+
+/* ==========================================================================
+    PAGER (ARTICLE NAV)
+   ========================================================================== */
+.pager .next {
+  float: right;
+  text-align: right; }
+
+/* ==========================================================================
+    PAGINATION
+   ========================================================================== */
+.pagination {
+  line-height: initial;
+  text-align: center; }
+  .pagination li {
+    border: 1px solid #e4e4e4; }
+  .pagination span {
+    display: block;
+    padding: 0.75em; }
+
+/* ==========================================================================
+    QUOTES
+   ========================================================================== */
+.testimonial blockquote {
+  background: #f9f9f8;
+  border: 1px solid #e4e4e4;
+  border-radius: 0.5em;
+  box-shadow: none;
+  font-size: 16px;
+  margin: inherit;
+  padding: 1.5em;
+  position: relative; }
+  .testimonial blockquote:before, .testimonial blockquote:after {
+    border-style: solid;
+    border-color: transparent;
+    border-bottom: 0;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0; }
+  .testimonial blockquote:before {
+    border-top-color: #cbcbcb;
+    border-width: 16px;
+    bottom: -16px;
+    left: 32px; }
+  .testimonial blockquote:after {
+    bottom: -15px;
+    left: 33px;
+    border-top-color: #f9f9f8;
+    border-width: 15px; }
+
+.author-img {
+  max-width: 100px; }
+
+/* ==========================================================================
+	SECTION (CONTENT)
+============================================================================= */
+.section {
+  padding-top: 4.5em;
+  padding-bottom: 4.5em; }
+  .section--lg {
+    padding-top: 6em;
+    padding-bottom: 6em; }
+  .section--sm {
+    padding-top: 2.25em;
+    padding-bottom: 2.25em; }
+
+/* ==========================================================================
+    TABLES
+   ========================================================================== */
+.table--split td:last-of-type {
+  text-align: right; }
+
+.table--striped tr:nth-of-type(odd) {
+  background-color: #f9f9f8; }
+
+.table--striped tr + tr {
+  border-top: 1px solid #e4e4e4; }
+
+/* ==========================================================================
+    TYPOGRAPHY
+   ========================================================================== */
+/* Awesome ampersands */
+.amp {
+  font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+  font-style: italic;
+  font-weight: normal; }
+
+/* Typically used in the first paragraph of an article, for added awesome. */
+.lede,
+.article-body > p:first-of-type,
+.layout-post p:first-child {
+  line-height: inherit;
+  margin-top: 1.06082em;
+  font-size: 1.414em; }
+
+.italic {
+  font-style: italic; }
+
+/* ==========================================================================
+    SITE WIDTH WRAPPER
+   ========================================================================== */
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90em; }
+
+/* =============================================================================
+  COMPONENT STYLES
+  Too complex to be defined as a pattern, component styles target specific
+  components without tying them to a pre-defined view or layout. A good
+  example would be a carousel or slider.
+============================================================================= */
+/* =============================================================================
+  SECTION STYLES
+  Document-level structural elements and page regions, as defined in your index
+  page. Big pieces of web page, not small pieces.
+============================================================================= */
+/* ==========================================================================
+    COMPLEMENTARY (SIDEBAR)
+   ========================================================================== */
+/* ==========================================================================
+    FOOTER
+   ========================================================================== */
+[role='contentinfo'] {
+  border-color: #3D9970; }
+
+/* ==========================================================================
+    HEADER
+   ========================================================================== */
+:not(.homepage) > [role='banner'] {
+  border-bottom: 5px solid #e4e4e4; }
+
+/* ==========================================================================
+    MAIN
+   ========================================================================== */
+/* ==========================================================================
+    PRIMARY NAVIGATION
+   ========================================================================== */
+/* =============================================================================
+  VIEWS
+  CSS specific *only* to individual views, and normally
+  applied via page class selectors, e.g. .blog {…}. If you don't need these you
+  have a very modular design.
+============================================================================= */
+/* ==========================================================================
+    CATEGORY
+   ========================================================================== */
+/* ==========================================================================
+    HOMEPAGE
+   ========================================================================== */
+/* =============================================================================
+  LAYOUTS
+  CSS specific *only* to named page layout tempates and targetting body class
+  , e.g. .layout-page.
+============================================================================= */
+/* ==========================================================================
+    PAGE LAYOUT
+   ========================================================================== */
+/* ==========================================================================
+    POST LAYOUT
+   ========================================================================== */
+/* =============================================================================
+  VENDOR STYLES
+  The things we didn't write, and don't want to modify, typically imports from
+  Bower and NPM installed modules, or external sources. Someone else's CSS.
+============================================================================= */
+/* Layout debugging tool */

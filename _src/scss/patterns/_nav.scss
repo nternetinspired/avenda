@@ -1,0 +1,46 @@
+
+/* ==========================================================================
+    NAVIGATION
+   ========================================================================== */
+
+%nav,
+.nav {
+  font-weight: $weight-strong;
+  margin-left: -.75em;
+  margin-right: -.75em;
+
+  a {
+    color: $color-complement;
+    display: block;
+    margin: 0;
+    padding: spacer(2);
+    text-decoration: none;
+
+    &.active,
+    &:active,
+    &:hover,
+    &:focus {
+      color: $color-secondary;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin: 0;
+
+    &:not(:last-child) {
+      margin-right: .5em;
+      position: relative;
+
+      &::after {
+        color: $color-secondary;
+        content: '•';
+        display: inline-block;
+        position: absolute;
+
+        top: .75em;
+        right: -.5em;
+      }
+    }
+  }
+}

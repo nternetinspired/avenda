@@ -1,0 +1,38 @@
+
+/* =============================================================================
+	FLEX GRID
+============================================================================= */
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+
+  &-item {
+  //  display: flex;
+    margin-top: 0;
+    flex: 0 1 auto;
+  }
+
+  &--grow {
+    .grid-item {
+      flex: 1 1 auto;
+    }
+  }
+
+  &--bottom {
+    align-items: flex-end;
+  }
+
+  &--middle {
+    align-items: center;
+  }
+
+  &:not(.gutter-off) {
+    margin: 0 0 0 spacer(-4);
+
+    > .grid-item {
+      padding-left: spacer(4);
+      margin-top: spacer(4);
+    }
+  }
+}

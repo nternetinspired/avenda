@@ -1,0 +1,41 @@
+{% capture day %}{{ post.date | date: "%-d" }}{% endcapture %}
+{% capture dayLastTwoDigits %}{{ day | modulo: 100 }}{% endcapture %}
+{% if dayLastTwoDigits >= "11" and dayLastTwoDigits <= "13" %}
+    {% assign ordinal = "th" %}
+{% else %}
+    {% capture dayLastDigit %}{{ day | modulo: 10 }}{% endcapture %}
+    {% case dayLastDigit %}
+        {% when "1" %}
+            {% assign ordinal = "st" %}
+        {% when "2" %}
+            {% assign ordinal = "nd" %}
+        {% when "3" %}
+            {% assign ordinal = "rd" %}
+        {% else %}
+            {% assign ordinal = "th" %}
+    {% endcase %}
+{% endif %}
+{% capture ordinalDay %}{{ day }}<sup>{{ ordinal }}</sup>{% endcapture %}
+
+<article class="grid" id="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="grid-item md-push-one-sixth md-one-third md-text-align--right">
+    <div class="italic post-meta muted">
+      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ ordinalDay }}&nbsp;{{ post.date | date: "of %B, %Y" }}</time>
+      {% if post.meta %} • {{ post.meta }}{% endif %}
+    </div>
+    <h1 class="article-header fw-600 h3 margin-off" itemprop="name headline">
+      <a class="a--h" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h1>
+  </header>
+
+  <div class="grid-item md-three-sixths lg-one-third">
+    <p class="post-excerpt" itemprop="description">
+        {{ post.excerpt | strip_html }}
+    </p>
+
+    <a class="a--readmore" href="{{ post.url | prepend: site.baseurl }}"></a>
+
+  </div>
+
+</article>

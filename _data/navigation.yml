@@ -1,0 +1,16 @@
+
+# Primary site nav
+primary:
+  - title: Home
+    href: /
+  - title: Bio
+    href: /about/
+  - title: Musings
+    href: /blog/
+
+# Secondary nav, naturally
+secondary:
+  - title: Fees
+    href: /fees/
+  - title: Terms &amp; Conditions
+    href: /terms/

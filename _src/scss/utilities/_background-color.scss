@@ -1,0 +1,21 @@
+
+/* ==========================================================================
+    BACKGROUND COLOR
+    // scss-lint:disable ImportantRule
+   ========================================================================== */
+
+.background-color {
+  background-color: $color-background;
+}
+
+.background-color--alt {
+  background-color: $color-background-alt;
+}
+
+.background-color--body {
+  background-color: $color-background-body;
+}
+
+.background-color--root {
+  background-color: $color-background-root;
+}

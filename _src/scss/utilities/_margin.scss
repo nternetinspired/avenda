@@ -1,0 +1,33 @@
+
+/* =============================================================================
+    MARGIN TRUMPS
+    // scss-lint:disable ImportantRule
+============================================================================= */
+
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%margin-off {
+  margin-top: 0 !important;
+}
+
+.margin-off {
+  @extend %margin-off;
+}
+
+%margins-off {
+  &,
+  > * {
+    margin-top: 0 !important;
+  }
+}
+
+.margins-off {
+  @extend %margins-off;
+}
+
+.margin-top--sm {
+  margin-top: spacer(2);
+}

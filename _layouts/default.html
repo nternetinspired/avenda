@@ -1,0 +1,24 @@
+---
+layout: typogrify
+---
+
+<!doctype html>
+<html lang="{{ site.locale }}" class="overlay--root supported-browser-magic-includes:">
+
+  {% include head.html %}
+
+  <body class="{% if page.page-class %}{{ page.page-class }} {% endif %}layout-{{ page.layout }}">
+
+    {% include header.html %}
+
+    <main role="main" class="margin-off">
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+
+</html>

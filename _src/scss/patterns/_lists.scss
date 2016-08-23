@@ -1,0 +1,64 @@
+
+/* ==========================================================================
+    LISTS
+   ========================================================================== */
+
+.list--inline,
+%list--inline {
+
+  @extend %list--unstyled;
+
+  margin-left: -.75em;
+  margin-right: -.75em;
+
+  li {
+    display: inline-block;
+    margin: 0 spacer(2);
+  }
+}
+
+.list--styled {
+  @extend %list--unstyled;
+
+  li {
+
+    &:before {
+      content: '☞';
+      margin: 0 spacer(2) 0 0;
+
+      @include mq($min, $md) {
+        margin: 0 0 0 spacer(-4);
+        position: absolute;
+      }
+    }
+  }
+}
+
+.list--underlined {
+  @extend %list--unstyled;
+
+  li {
+    padding: spacer(2) 0;
+
+    &:not(:first-child) {
+      border-top: 1px solid $color-border;
+    }
+  }
+}
+
+.list--striped {
+  @extend %list--unstyled;
+
+  li {
+  //  padding: spacer(2) 0;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-border;
+    }
+  }
+}
+
+.list--unstyled,
+%list--unstyled {
+  list-style-type: none;
+}

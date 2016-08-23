@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% capture day %}{{ page.date | date: "%-d" }}{% endcapture %}
+{% capture dayLastTwoDigits %}{{ day | modulo: 100 }}{% endcapture %}
+{% if dayLastTwoDigits >= "11" and dayLastTwoDigits <= "13" %}
+    {% assign ordinal = "th" %}
+{% else %}
+    {% capture dayLastDigit %}{{ day | modulo: 10 }}{% endcapture %}
+    {% case dayLastDigit %}
+        {% when "1" %}
+            {% assign ordinal = "st" %}
+        {% when "2" %}
+            {% assign ordinal = "nd" %}
+        {% when "3" %}
+            {% assign ordinal = "rd" %}
+        {% else %}
+            {% assign ordinal = "th" %}
+    {% endcase %}
+{% endif %}
+{% capture ordinalDay %}{{ day }}<sup>{{ ordinal }}</sup>{% endcapture %}
+
+<article class="section background-color--body" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="container wrapper">
+
+    <header class="h--styled text-align--center">
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+      <div class="italic meta muted margin-top--sm">
+        Published <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ ordinalDay }}&nbsp;{{ page.date | date: "of %B, %Y" }}</time>
+        {% if page.author %} by
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ page.author }}</span>
+        </span>
+        {% endif %}
+        {% if page.meta %} • {{ page.meta }}{% endif %}
+      </div>
+    </header>
+
+    <div itemprop="articleBody" class="article-body margin-auto width-copy">
+      {{ content | caps | widont }}
+    </div>
+  </div>
+</article>

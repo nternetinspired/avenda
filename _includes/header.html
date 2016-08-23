@@ -1,0 +1,25 @@
+
+<header role="banner" class="section--sm color--root">
+  <div class="container wrapper">
+    <div class="grid grid--padded grid--middle">
+      <div class="grid-item md-one-third margin-off">
+        <div class="logo" itemscope itemtype="http://schema.org/Organization">
+          <a class="h4 fw-600 tt-uppercase logo-link a--alt" href="{{ "/" | prepend: site.baseurl }}" title="Go to the {{ site.company }} homepage" itemprop="url">{{ site.company }}</a>
+        </div>
+      </div>
+      <div class="grid-item md-two-thirds margin-off">
+        <nav class="nav--primary md-text-align--right" role="navigation" aria-label="primary-navigation">
+          <h1 class="sr-only">Main Menu</h1>
+
+          <ul class="nav margin-off">
+
+            {% for link in site.data.navigation.primary %}
+              {% include nav-link.html %}
+            {% endfor %}
+
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

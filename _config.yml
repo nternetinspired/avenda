@@ -1,0 +1,72 @@
+# Site settings
+title              : Atelier Avenda
+company            : Avenda Burnell-Walsh
+url                : http://avendaburnellwalsh.com # the base hostname & protocol for your site
+locale             : en_UK
+
+# Site owner
+owner              :
+  name             : Avenda Burnell-Walsh
+  email            : laurence.cornhill@internet-inspired.com
+  twitter_username :
+  github_username  : nternetinspired
+  github_repo      : avenda
+
+# Jekyll settings
+baseurl            : ''
+# paginate           : 5
+permalink          : /:categories/:title/
+
+# Other Build settings
+compress_html      :
+  clippings        : all
+
+# Plugins
+whitelist          : []
+gems               :
+- jekyll-typogrify
+- jekyll-paginate
+- jekyll-sitemap
+
+# Handling Reading
+safe               : true
+include            : [".htaccess","_pages"]
+exclude            : ["README.md","node_modules/",".sass-cache/","Gemfile","Gemfile.lock",".git/","Gruntfile.js","package.json"]
+collections:
+  pages            :
+    output         : true
+    permalink      : /:collection/:path/
+
+# Front-matter defaults
+defaults:
+  -
+    scope:
+      path: "_posts" # an empty string here means all files in the project
+    values:
+      author: "Avenda Burnell-Walsh"
+      category: "blog"
+      layout: "post"
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://pianotuitionyork.co.uk'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "author"
+        field:
+          element: "text"
+          value: "Avenda Burnell-Walsh"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""

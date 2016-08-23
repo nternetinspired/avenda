@@ -1,0 +1,36 @@
+<footer role="contentinfo" class="footer-row section border-top color--root">
+  <div class="footer-content container wrapper">
+    <section>
+      <h3 class="sr-only">Contact Details</h3>
+      <p class="margin-off">
+        <span class="fw-600 tt-uppercase">Avenda Burnell-Walsh</span><br/>
+        7 Fourth Avenue,<br/>
+        Teignmouth,<br/>
+        Devon TQ14 9DS.
+      </p>
+      <p>
+        Telephone: <a class="a--alt fw-600" href="tel:+441626775789">01626 775789</a>
+        <br/>
+        Email: <a class="a--alt fw-600" href="mailto:atelieravenda@gmail.com">atelieravenda@gmail.com</a>
+      </p>
+    </section>
+
+    <nav class="nav--secondary" role="navigation" aria-label="secondary-navigation">
+      <h3 class="sr-only">Secondary Navigation</h3>
+      <ul class="nav margin-off">
+
+        {% for link in site.data.navigation.secondary %}
+          {% include nav-link.html %}
+        {% endfor %}
+
+      </ul>
+    </nav>
+
+    <p class="margin-off">
+      <small>
+        Copyright &copy; 2014–{{ site.time | date: '%Y' }} {{ site.company }}. Site by <a class="a--alt" href="http://internet-inspired.com">Internet Inspired!</a>
+      </small>
+    </p>
+
+  </div>
+</footer>

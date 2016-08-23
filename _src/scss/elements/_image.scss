@@ -1,0 +1,25 @@
+
+/* ==========================================================================
+    IMAGES
+   ========================================================================== */
+
+/* Fluid images. */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Don't ignore `width` and/or `height` attributes if they are present. */
+[width],
+[height] {
+  max-width: none;
+}
+
+/* Don't use the Owl selector on image elements immediateley following a <script>
+   to prevent an issue in image grids caused by mod_pagespeed img defer script.
+*/
+
+script + img {
+  margin-top: 0 !important;
+}

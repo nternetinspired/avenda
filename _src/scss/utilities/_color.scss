@@ -1,0 +1,38 @@
+
+/* ==========================================================================
+    TEXT COLOUR CONTROL STYLES
+    // scss-lint:disable ImportantRule
+   ========================================================================== */
+
+/* Project default colours */
+.color--body {
+  color: $color-body;
+}
+
+.color--background-body {
+  color: $color-background-body;
+}
+
+
+.color--root {
+  color: $color-root !important;
+}
+
+.color--background-root {
+  color: $color-background-root;
+}
+
+
+/* Our brand palette colours */
+.color--primary {
+  color: $color-primary !important;
+}
+
+.color--secondary {
+  color: $color-secondary !important;
+}
+
+/* Contextual colours */
+.color--warning {
+  color: $color-warning;
+}

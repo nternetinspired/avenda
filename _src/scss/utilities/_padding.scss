@@ -1,0 +1,24 @@
+
+/* =============================================================================
+    PADDING TRUMPS
+    // scss-lint:disable ImportantRule
+============================================================================= */
+
+%padding-off {
+  padding: 0 !important;
+}
+
+.padding-off {
+  @extend %padding-off;
+}
+
+%padding-off-all {
+  &,
+  > * {
+    padding: 0 !important;
+  }
+}
+
+.padding-off-all {
+  @extend %margins-off;
+}

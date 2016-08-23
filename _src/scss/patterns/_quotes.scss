@@ -1,0 +1,56 @@
+
+/* ==========================================================================
+    QUOTES
+   ========================================================================== */
+
+.testimonial {
+
+  blockquote {
+
+    background: $color-background;
+    border: 1px solid $color-border;
+    border-radius: $radius-brand;
+    box-shadow: none;
+    font-size: $root-size;
+    margin: inherit;
+    padding: spacer();
+    position: relative;
+
+    // Triangle Base
+    &:before,
+    &:after {
+      border-style: solid;
+      border-color: transparent;
+      border-bottom: 0;
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+    }
+
+		// Triangle Stroke
+    &:before {
+      border-top-color: darken($color-border, 10%);
+      border-width: 16px;
+      bottom: -16px;
+      left: 32px;
+    }
+
+    // Triangle Fill
+    &:after {
+      bottom: -15px;
+      left: 33px;
+      border-top-color: $color-background;
+      border-width: 15px;
+    }
+  }
+
+  .author-img {
+  //  border: 3px solid $color-border;
+  //  box-shadow: 0 0 0 1px $color-border;
+  }
+}
+
+.author-img {
+  max-width: 100px;
+}
