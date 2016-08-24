@@ -1,2 +1,2 @@
-# laurence
-The personal website of Laurence Cornhill, music teacher. 
+# Avenda
+The website of Avenda Burnell Walsh, artist, actor, illustrator, publisher. 
