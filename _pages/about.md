@@ -5,12 +5,9 @@ permalink: /about/
 description:
 ---
 
-A member of the Maison des Artistes, Avenda paints and illustrates from her Devon studio ... Atelier Avenda ... overlooking the sea at Teignmouth.
-Avenda’s work as an artist, an actor and a publisher allows her that ultimate luxury of a life by the sea.
+Working primarily in oils and acrylics, the canvasses are all rooted in real subject matter but have an air of abstraction. Fascinated by the structure of both faces and flowers, Avenda tends to paint big and bold, looking for light and shape, line and focus.
 {:class='lede' }
 
-Following a study of drama, film and art,
-both at Exeter University and the University of California (Santa Barbara) she now has the Teign Estuary outside her studio balcony and the salt air blowing across her face.
+A triptych, Meet The Neanderthals, is the latest work from the atelier. Inspired by the reconstructed skulls of one of our ancestors, these challenging pieces are powerful indeed.
 
-Her office is known as the ‘wine library’ and when not filming, writing and painting she sings the Blues. Occasionally she kayaks in easy waters.
-The terrace faces south and the bottle is always half full.
+Other recent work includes a series indebted to The Lovesong of J Alfred Prufrock, a poem by TS Eliot.
