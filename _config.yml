@@ -1,13 +1,13 @@
 # Site settings
 title              : Atelier Avenda
-company            : Avenda Burnell-Walsh
+company            : Avenda Burnell Walsh
 url                : http://avendaburnellwalsh.com # the base hostname & protocol for your site
 locale             : en_UK
 
 # Site owner
 owner              :
-  name             : Avenda Burnell-Walsh
-  email            : laurence.cornhill@internet-inspired.com
+  name             : Avenda Burnell Walsh
+  email            : atelieravenda@gmail.com
   twitter_username :
   github_username  : nternetinspired
   github_repo      : avenda
@@ -43,7 +43,7 @@ defaults:
     scope:
       path: "_posts" # an empty string here means all files in the project
     values:
-      author: "Avenda Burnell-Walsh"
+      author: "Avenda Burnell Walsh"
       category: "blog"
       layout: "post"
 
@@ -56,7 +56,7 @@ prose:
       - name: "author"
         field:
           element: "text"
-          value: "Avenda Burnell-Walsh"
+          value: "Avenda Burnell Walsh"
       - name: "category"
         field:
           element: "hidden"
