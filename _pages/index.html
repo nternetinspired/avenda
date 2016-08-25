@@ -49,19 +49,29 @@ permalink: /
     <div class="container wrapper">
       <header class="h--styled text-align--center">
         <h2 class="margin-off">Current work</h2>
+        <p class="margin-off">
+          You can see more of my work in <a href="{{ "/work" | prepend: site.baseurl }}">my portfolio</a>.
+        </p>
       </header>
 
       <div class="grid grid--padded">
 
-      {% for post in site.categories['testimonial'] limit: 2 %}
+        {% for post in site.work %}
+          {% unless post.archived %}
+            {% if post.featured %}
 
-        <div class="grid-item md-one-half">
-          {% include testimonial.html %}
-        </div>
+              <div class="wow fadeInUp grid-item flex-even">
+                {% include portfolio-intro.html %}
+              </div>
 
-      {% endfor %}
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+
       </div>
-    </div>
 
+
+
+    </div>
   </aside>
 </article>

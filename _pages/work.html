@@ -1,0 +1,29 @@
+---
+layout: category
+title: Latest work.
+permalink: /work/
+---
+
+<div class="grid margin-off" itemprop="articleBody">
+
+{% for post in site.work %}
+  {% unless post.archived %}
+    {% if post.featured %}
+    <div class="grid-item md--flex-even">
+      {% include portfolio-intro.html %}
+    </div>
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+
+{% for post in site.work %}
+  {% unless post.archived %}
+    {% unless post.featured %}
+    <div class="grid-item md--flex-even wow fadeInUp">
+      {% include portfolio-intro.html %}
+    </div>
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
+
+</div>
