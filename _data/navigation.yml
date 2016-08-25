@@ -7,12 +7,14 @@ primary:
     href: /about/
   - title: Musings
     href: /blog/
-  - title: Work
-    href: /work/
+  - title: portfolio
+    href: /portfolio/
 
 # Secondary nav, naturally
 secondary:
-  - title: Fees
-    href: /fees/
-  - title: Terms &amp; Conditions
-    href: /terms/
+  - title: facebook_username
+    href: /#
+  - title: instagram_username
+    href: /#
+  - title: twitter_username
+    href: /#
