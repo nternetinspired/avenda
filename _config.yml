@@ -30,7 +30,7 @@ gems               :
 
 # Handling Reading
 safe               : true
-include            : [".htaccess","_pages"]
+include            : [".htaccess","_pages","_portfolio","_reviews"]
 exclude            : ["README.md","node_modules/",".sass-cache/","Gemfile","Gemfile.lock",".git/","Gruntfile.js","package.json"]
 collections:
   pages            :
@@ -42,11 +42,11 @@ collections:
   pages            :
     output         : true
     permalink      : /:collection/:path/
-  work             :
+  portfolio             :
     output         : true
     permalink      : /:collection/:path/
   reviews          :
-    output         : false
+    output         : true
     permalink      : /:collection/:path/
 
 # Front-matter defaults
@@ -70,7 +70,7 @@ prose:
     - /_config.yml
     - /_layouts
     - /_includes
-  media: 'media'
+  media: 'media-uploads'
   metadata:
     _posts:
       - name: "author"
