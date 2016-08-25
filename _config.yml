@@ -64,9 +64,9 @@ defaults:
       layout: "portfolio"
 
 prose:
-  rooturl: '',
+  rooturl: ''
   ignore:
-    '_config.yml'
+    - '_config.yml'
     - /_plugins
     - /_includes
   siteurl: 'https://nternetinspired.github.io/avenda/'
