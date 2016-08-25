@@ -30,23 +30,17 @@ gems               :
 
 # Handling Reading
 safe               : true
-include            : [".htaccess","_pages","_portfolio","_reviews"]
+include            : [".htaccess","_pages","_posts","_portfolio","_reviews"]
 exclude            : ["README.md","node_modules/",".sass-cache/","Gemfile","Gemfile.lock",".git/","Gruntfile.js","package.json"]
 collections:
   pages            :
     output         : true
     permalink      : /:collection/:path/
-
-# Define data collections (non-post shiz)
-collections:
-  pages            :
-    output         : true
-    permalink      : /:collection/:path/
   portfolio             :
-    output         : true
+    output         : false
     permalink      : /:collection/:path/
   reviews          :
-    output         : true
+    output         : false
     permalink      : /:collection/:path/
 
 # Front-matter defaults
@@ -59,7 +53,7 @@ defaults:
       category: "blog"
       layout: "post"
     scope:
-      path: "_made" # an empty string here means all files in the project
+      path: "_portfolio" # an empty string here means all files in the project
     values:
       layout: "portfolio"
 
