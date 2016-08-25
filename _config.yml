@@ -13,7 +13,7 @@ owner              :
   github_repo      : avenda
 
 # Jekyll settings
-baseurl            : '/avenda'
+# baseurl            : '/avenda'
 # paginate           : 5
 permalink          : /:categories/:title/
 
@@ -59,7 +59,7 @@ defaults:
       category: "blog"
       layout: "post"
     scope:
-      path: "_work" # an empty string here means all files in the project
+      path: "_made" # an empty string here means all files in the project
     values:
       layout: "portfolio"
 
