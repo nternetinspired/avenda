@@ -5,9 +5,9 @@ primary:
     href: /
   - title: Bio
     href: /about/
-  - title: Musings
+  - title: Blog
     href: /blog/
-  - title: portfolio
+  - title: Portfolio
     href: /portfolio/
 
 # Secondary nav, naturally
