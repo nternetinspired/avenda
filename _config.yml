@@ -64,11 +64,15 @@ defaults:
       layout: "portfolio"
 
 prose:
-  rooturl: ''
+#  rooturl: ''
   ignore:
-    - '_config.yml'
-    - /_plugins
+    - /_data
     - /_includes
+    - /_layouts
+    - /_src
+    - /css
+    - /fonts
+    - /img
   siteurl: 'https://nternetinspired.github.io/avenda/'
   media: 'media'
   metadata:
