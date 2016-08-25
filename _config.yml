@@ -66,8 +66,8 @@ defaults:
 prose:
   rooturl: '',
   ignore: [
-    '_data',
-    '_includes',
+    '_data/*',
+    '_includes/*',
     '_config.yml'
   ],
   siteurl: 'https://nternetinspired.github.io/avenda/'
