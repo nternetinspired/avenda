@@ -36,7 +36,7 @@ they look the same but don't carry the semantic baggage.
 .h--styled {
   margin-bottom: spacer(8);
   margin-top: spacer(2);
-  padding: spacer(8) 0;
+  padding: spacer(4) 0;
   position: relative;
 
   &::before  {
@@ -54,8 +54,8 @@ they look the same but don't carry the semantic baggage.
     border-bottom: 2px solid $color-complement;
     content: '';
     display: block;
-    margin-left: -2em;
+    margin-left: -3em;
     position: absolute;
-    width: 4em;
+    width: 6em;
   }
 }
