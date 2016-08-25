@@ -1,6 +1,6 @@
 ---
 published: true
-title: Test post
+title: Test post 2
 ---
 
 Decore ignota vel ne, id vis dicit iriure civibus. Indoctum euripidis mei at, nec ea hinc recteque, mea natum minimum et. Ex assentior pertinacia usu. Omnis debitis ex nec, vim unum abhorreant ea, ubique aperiri mnesarchum ea ius. Ius et primis adversarium. Ad sit augue suavitate suscipiantur. Sed ad laudem iriure, et dolores phaedrum eam.
