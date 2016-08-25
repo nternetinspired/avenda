@@ -1,12 +1,16 @@
 ---
 layout: portfolio
 title: Spiffing Covers
-excerpt: Veri imperdiet ne has, torquatos expetendis at usu. Et populo virtute sit, sumo natum philosophia vel ut.
+excerpt: >-
+  Veri imperdiet ne has, torquatos expetendis at usu. Et populo virtute sit,
+  sumo natum philosophia vel ut.
 intro-image: /img/800px/spiffingcovers-imac.jpg
 banner-image: /img/1920px/spiffingcovers-imac.jpg
 featured: true
 published: true
 ---
+
+![guggenheim-framed.jpg]({{site.baseurl}}/_portfolio/guggenheim-framed.jpg)
 
 No vis nibh melius intellegat, vim ornatus aliquando eu. Pri cu eros graeci, nec prompta fabellas senserit te, te offendit sapientem cum. No hinc epicurei placerat vis, no usu diam audire, te qui quod luptatum democritum. His et idque probatus expetenda, repudiare persequeris ad eos. Sea cu errem praesent. At vidit nulla aperiam sed, eum cu repudiare similique.
 
