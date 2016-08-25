@@ -37,6 +37,18 @@ collections:
     output         : true
     permalink      : /:collection/:path/
 
+# Define data collections (non-post shiz)
+collections:
+  pages            :
+    output         : true
+    permalink      : /:collection/:path/
+  work             :
+    output         : true
+    permalink      : /:collection/:path/
+  reviews          :
+    output         : false
+    permalink      : /:collection/:path/
+
 # Front-matter defaults
 defaults:
   -
@@ -46,10 +58,14 @@ defaults:
       author: "Avenda Burnell Walsh"
       category: "blog"
       layout: "post"
+    scope:
+      path: "_work" # an empty string here means all files in the project
+    values:
+      layout: "portfolio"
 
 prose:
-  rooturl: '_posts'
-  siteurl: 'http://pianotuitionyork.co.uk'
+  rooturl: ''
+  siteurl: 'https://nternetinspired.github.io/avenda/'
   media: 'media'
   metadata:
     _posts:
