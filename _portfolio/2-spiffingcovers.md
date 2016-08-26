@@ -10,7 +10,7 @@ featured: true
 published: true
 ---
 
-![spiffingcovers-imac.jpg]({{site.baseurl}}/_portfolio/spiffingcovers-imac.jpg)
+![IMG_1517.JPG]({{site.baseurl}}/_portfolio/IMG_1517.JPG)
 
 Meeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
 
@@ -22,4 +22,5 @@ I have been told these paintings are a bit scary, and I have to agree they are. 
 
 Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, glances, a search for beauty, my unpainted ladies of bare canvas on a painted ground ... these Neanderthals are thickly applied, colourful, vibrant, staring us and each other in the face. I am rather enjoying myself. I am not expecting you to like them.
 
-![spiffingcovers-imac.jpg]({{site.baseurl}}/_portfolio/spiffingcovers-imac.jpg)
+![image1.JPG]({{site.baseurl}}/_portfolio/image1.JPG)
+
