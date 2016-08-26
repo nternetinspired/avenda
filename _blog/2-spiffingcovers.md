@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: A lovely piece.
+title: A challenging concept
 excerpt: >-
   Meet The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls
 intro-image: /img/800px/spiffingcovers-imac.jpg
@@ -11,22 +11,10 @@ published: true
 
 Meeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
 
-No vis nibh melius intellegat, vim ornatus aliquando eu. Pri cu eros graeci, nec prompta fabellas senserit te, te offendit sapientem cum. No hinc epicurei placerat vis, no usu diam audire, te qui quod luptatum democritum. 
+We all have some Neanderthal in our genes, we are now told. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomes. So that is nearly all of us.
 
-Ne sit persius equidem democritum, augue nemore facete an est. Vel prima facilisis ut, sea in accusata liberavisse, adhuc choro ea qui. Id sit appareat placerat periculis, te mel tale prima deseruisse. Vitae mediocrem efficiendi his ex, ea sit melius accusamus. Ne quo molestie vituperatoribus. His at scripta corpora.
+Even more interesting, genetic testing has shown these fascinating people were red haired and pale skinned ... sounding wonderfully Celtic to my unscientific brain. And that might have started it really. I saw the reconstructed models and was hooked. I want to find these people. Meet them face to face. The canvasses came out and I let my brushes fly back through the thousands of years.
 
-Suas accommodare sea no, id eam affert expetendis suscipiantur. Veri imperdiet ne has, torquatos expetendis at usu. Et populo virtute sit, sumo natum philosophia vel ut. Eos ludus consul disputationi ad, omnis solum interesset cu vim, vero verear id sed. No per utroque appetere.
+I have been told these paintings are a bit scary, and I have to agree they are. Challenging might be a better word. But I never intended them to be pretty. They are not for the faint hearted. But I am enjoying the process of looking for our ancestors. I never believed the Neanderthals to be unintelligent. It was just a long time ago. I want to imagine them and their lives.
 
-Quodsi omnium option his ex. Falli viris dolorum ne usu, suas inani impetus ut nec. Ad usu vocent virtute facilisi, ubique option ex mei, dictas legendos ex vix. At meliore partiendo suscipiantur usu, aeterno assueverit nec no. Ad quo putant persequeris, in suscipit fabellas est.
-
-Prima ponderum te nam. Et his fierent referrentur, ne dolorem voluptua oportere mei. Duo cu esse nominati, eos an case idque. Eum cu magna dicat minimum.
-
-Vero ancillae eu eam, in harum facilisis consequat vis. Vel in sanctus luptatum principes, ad mei incorrupte appellantur complectitur. Appellantur consequuntur nec an, tritani invidunt at qui. Ex his inani legimus nonumes. Numquam torquatos vim in.
-
-Nec solum brute adversarium in, eos solet perfecto ea. Qui ea tale vivendo torquatos. Ad everti dolores scaevola cum, explicari torquatos duo id. Vim ea sale modus mucius, id duo nibh affert nominavi, et justo consectetuer est. Mel id fastidii accusamus, facete viderer epicurei cu quo.
-
-Pri ut summo tantas definitionem, usu habeo veritus rationibus at. Regione sanctus perpetua te duo, simul perfecto cum eu. Debet dissentiunt cu qui, elit aliquid partiendo ex vel. Eu vulputate mnesarchum instructior vim. No has erat civibus posidonium, ei sea sumo suas laboramus. Quod graece causae usu ea. Munere aliquid in vix.
-
-Ridens ancillae ad vix, assentior elaboraret ut ius. Cum ne mundi placerat scripserit. Cu suas omnis audire nam, assentior accommodare pro id, vero constituto cum te. Quo phaedrum temporibus te, pri mucius labore in. At pri tale harum dolores, scripta reprehendunt pro te.
-
-Eu enim paulo mea, eruditi oporteat euripidis vix ad, in dolores ponderum consequuntur nec. Mel eu lorem clita dolores, mei dico movet no. Te eos agam perpetua, ad oratio partem mentitum vix. Commune eloquentiam an his, ius scripta partiendo ne. In eam novum fabulas.
+Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, glances, a search for beauty, my unpainted ladies of bare canvas on a painted ground ... these Neanderthals are thickly applied, colourful, vibrant, staring us and each other in the face. I am rather enjoying myself. I am not expecting you to like them.
