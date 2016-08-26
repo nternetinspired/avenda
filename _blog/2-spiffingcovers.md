@@ -2,8 +2,7 @@
 layout: portfolio
 title: A lovely piece.
 excerpt: >-
-  Veri imperdiet ne has, torquatos expetendis at usu. Et populo virtute sit,
-  sumo natum philosophia vel ut.
+  Meet The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls
 intro-image: /img/800px/spiffingcovers-imac.jpg
 banner-image: /img/1920px/spiffingcovers-imac.jpg
 featured: true
