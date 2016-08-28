@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Spiffing Covers
+title: Meeting The Neanderthals
 excerpt: >-
   Veri imperdiet ne has, torquatos expetendis at usu. Et populo virtute sit,
   sumo natum philosophia vel ut.
