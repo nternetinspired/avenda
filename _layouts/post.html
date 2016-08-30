@@ -26,7 +26,7 @@ layout: default
 <article class="section background-color--body" itemscope itemtype="http://schema.org/BlogPosting">
   <div class="container wrapper">
 
-    <header class="h--styled">
+    <header class="h--styled text-align--center">
       <h1 itemprop="name headline">{{ page.title }}</h1>
       <div class="italic meta muted margin-top--sm">
         {% if page.date %}Published <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ ordinalDay }}&nbsp;{{ page.date | date: "of %B, %Y" }}</time>{% endif %}
@@ -39,7 +39,7 @@ layout: default
       </div>
     </header>
 
-    <div itemprop="articleBody" class="article-body width-copy">
+    <div itemprop="articleBody" class="article-body margin-auto width-copy">
       {{ content | caps | widont }}
     </div>
   </div>
