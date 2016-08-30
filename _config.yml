@@ -13,7 +13,7 @@ owner              :
   github_repo      : avenda
 
 # Jekyll settings
-baseurl            : '/avenda'
+# baseurl            : '/avenda'
 # paginate           : 5
 permalink          : /:categories/:title/
 
@@ -30,14 +30,14 @@ gems               :
 
 # Handling Reading
 safe               : true
-include            : [".htaccess","_pages","_posts","_portfolio","_reviews"]
+include            : ["_pages","_portfolio","_reviews"]
 exclude            : ["README.md","node_modules/",".sass-cache/","Gemfile","Gemfile.lock",".git/","Gruntfile.js","package.json"]
 collections:
   pages            :
     output         : true
     permalink      : /:collection/:path/
   portfolio             :
-    output         : false
+    output         : true
     permalink      : /:collection/:path/
   reviews          :
     output         : false
@@ -60,11 +60,10 @@ defaults:
 prose:
   siteurl: 'https://nternetinspired.github.io/avenda/'
   ignore:
-    - /\..*
     - /_config.yml
     - /_layouts
     - /_includes
-  media: 'media-uploads'
+  media: 'media'
   metadata:
     _posts:
       - name: "author"
