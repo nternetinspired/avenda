@@ -1,6 +1,5 @@
 ---
 published: true
-title: Ven post
 author: Avenda Burnell Walsh
 category: blog
 layout: post
