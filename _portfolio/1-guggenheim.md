@@ -1,9 +1,7 @@
 ---
 layout: portfolio
 title: The Guggenheim
-excerpt: >-
-  Vero epicuri vis ad, nam ad dico tamquam. Duo decore commune luptatum ad. Qui
-  ne tincidunt sententiae, an mediocrem intellegebat est.
+excerpt: Vero epicuri vis ad, nam ad dico tamquam. Duo decore commune luptatum ad. Quine tincidunt sententiae, an mediocrem intellegebat est.
 intro-image: /img/800px/guggenheim-framed.jpg
 banner-image: /img/1920px/guggenheim-framed.jpg
 published: true
