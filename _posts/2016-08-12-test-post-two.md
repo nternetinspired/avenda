@@ -1,7 +1,6 @@
 ---
 published: true
 title: Test post 2
-layout: post
 author: Avenda Burnell Walsh
 category: blog
 layout: post

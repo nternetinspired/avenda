@@ -1,9 +1,7 @@
 ---
 layout: portfolio
 title: Meeting The Neanderthals
-excerpt: >-
-  Veri imperdiet ne has, torquatos expetendis at usu. Et populo virtute sit,
-  sumo natum philosophia vel ut.
+excerpt: Meeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
 intro-image: /img/800px/spiffingcovers-imac.jpg
 banner-image: /img/1920px/spiffingcovers-imac.jpg
 featured: true
@@ -23,4 +21,3 @@ I have been told these paintings are a bit scary, and I have to agree they are. 
 Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, glances, a search for beauty, my unpainted ladies of bare canvas on a painted ground ... these Neanderthals are thickly applied, colourful, vibrant, staring us and each other in the face. I am rather enjoying myself. I am not expecting you to like them.
 
 ![image1.JPG]({{site.baseurl}}/_portfolio/image1.JPG)
-
