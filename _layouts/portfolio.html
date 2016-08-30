@@ -2,66 +2,20 @@
 layout: default
 ---
 
-<article itemscope itemtype="http://schema.org/Article">
+<article class="section background-color--body" itemscope itemtype="http://schema.org/Article">
 
+  <div class="container wrapper">
 
-  <header class="container">
     <h1 itemprop="name headline">{{ page.title }}</h1>
-    {% if page.excerpt %}
-    <p class="lede margin-off">
-      {{ page.excerpt }}
-    </p>
+
+    {% if page.banner-image %}
+    <img src="{{ page.banner-image }}" alt="{{ page.title }} banner image">
     {% endif %}
-  </header>
 
-  <img class="margin-off" src="{{ page.banner-image }}" alt="{{ page.title }} banner image">
-
-  <div class="container">
-    <div class="grid">
-
-      <div class="article-body grid-item md--flex-2 md--flex-grande" itemprop="articleBody">
-        {{ content | widont }}
-      </div>
-
-      <aside class="grid-item md--flex-pico bg-color--quaternary">
-        <div class="padding">
-          <h3 class="h4 margin-off">Project details</h3>
-
-          {% if page.features %}
-
-          {% assign features = page.features | split: ', ' %}
-          <ul class="list--styled">
-            {% for feature in features %}
-
-              <li>{{ feature }}</li>
-
-            {% endfor %}
-          </ul>
-          {% endif %}
-
-          {% if page.services OR page.technology %}
-          <dl class="article-meta">
-            <dt>
-              {% if page.services %}
-              <dt>Services provided</dt>
-              <dd class="margin-off">{{ page.services }}</dd>
-              {% endif %}
-
-              {% if page.technology %}
-              <dt>Technology used</dt>
-              <dd class="margin-off">{{ page.technology }}</dd>
-              {% endif %}
-            </dt>
-          </dl>
-          {% endif %}
-
-          {% if page.link %}
-          <p>
-            <a class="btn btn--success" href="{{ page.link }}">View the site</a>
-          </p>
-          {% endif %}
-        </div>
-      </aside>
+    <div class="article-body width-copy" itemprop="articleBody">
+      {{ content | widont }}
     </div>
+
   </div>
+
 </article>
