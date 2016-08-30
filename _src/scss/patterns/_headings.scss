@@ -40,17 +40,17 @@ they look the same but don't carry the semantic baggage.
   position: relative;
 
   &::before  {
-    top: -.125em;
-    left: 50%;
+//    top: -.125em;
+//    left: 50%;
   }
 
   &::after  {
-    bottom: -.125em;
+    bottom: 0;
     left: 50%;
   }
 
-  &::after,
-  &::before  {
+  &::after {
+//  &::before  {
     border-bottom: 2px solid $color-complement;
     content: '';
     display: block;
