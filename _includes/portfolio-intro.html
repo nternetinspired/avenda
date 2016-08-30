@@ -1,7 +1,9 @@
 
 <article class="bg-color--quaternary" id="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
 
-  <img class="img--cover" src="{{ post.intro-image }}" alt="{{ post.title }} intro image">
+  <a class="a--h" href="{{ post.url | prepend: site.baseurl }}">
+    <img class="img--cover" src="{{ post.intro-image }}" alt="{{ post.title }} intro image">
+  </a>
 
   <div class="margin-off">
     <div class="container">
