@@ -9,6 +9,8 @@ primary:
     href: /blog/
   - title: Portfolio
     href: /portfolio/
+    title: Contact
+    href: /contact/
 
 # Secondary nav, naturally
 secondary:
