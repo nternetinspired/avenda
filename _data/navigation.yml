@@ -12,9 +12,9 @@ primary:
 
 # Secondary nav, naturally
 secondary:
-  - title: facebook_username
-    href: /#
-  - title: instagram_username
-    href: /#
-  - title: twitter_username
-    href: /#
+  - title: Facebook
+    href: https://facebook.com/Rebelwithoutherdrawers
+  - title: Instagram
+    href: https://instagram.com/rebelwithoutherdrawers
+  - title: @artistavenda
+    href: https://twitter.com/artisavenda
