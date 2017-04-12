@@ -2,7 +2,7 @@
 layout: portfolio
 title: Meeting The Neanderthals
 excerpt: Meeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
-intro-image: media/image1.jpg
+intro-image: /media/image1.jpg
 featured: true
 published: true
 ---
