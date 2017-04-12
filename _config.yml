@@ -30,7 +30,7 @@ gems               :
 
 # Handling Reading
 safe               : true
-include            : ["_pages","_portfolio","_reviews"]
+include            : ["_pages","_portfolio"]
 exclude            : ["README.md","node_modules/",".sass-cache/","Gemfile","Gemfile.lock",".git/","Gruntfile.js","package.json"]
 collections:
   pages            :
@@ -38,9 +38,6 @@ collections:
     permalink      : /:collection/:path/
   portfolio             :
     output         : true
-    permalink      : /:collection/:path/
-  reviews          :
-    output         : false
     permalink      : /:collection/:path/
 
 # Front-matter defaults
