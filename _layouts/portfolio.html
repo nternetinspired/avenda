@@ -6,7 +6,11 @@ layout: default
 
   <div class="container wrapper">
 
-    <h1 itemprop="name headline">{{ page.title }}</h1>
+    <header class="h--styled text-align--center">
+      {% if page.title %}
+      <h1 class="margin-off" itemprop="name headline">{{ page.title }}</h1>
+      {% endif %}
+    </header>
 
     {% if page.banner-image %}
     <img src="{{ page.banner-image }}" alt="{{ page.title }} banner image">
