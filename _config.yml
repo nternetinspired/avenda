@@ -13,8 +13,8 @@ owner              :
   github_repo      : avenda
 
 # Jekyll settings
-baseurl            : '/avenda'
-# paginate           : 5
+baseurl            : ''
+# paginate         : 5
 permalink          : /:categories/:title/
 
 # Other Build settings
