@@ -1,5 +1,4 @@
 ##Devon Open Studios 2017
-![Devon Open Studios]/img/open-studios-logo-h-59.jpg)
 
 This year Avenda will be participating in Devon Open Studios which runs from Saturday 9th - Sunday 24th September 2017.
 
