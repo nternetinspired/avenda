@@ -8,4 +8,6 @@ A cornucopia of art is on offer across Devon when over 200 resident artists and 
 
 Venture out on self-guided art tours using our free full colour event guide or just by spontaneously following the yellow arrows scattered about the countryside. Meet the artists, participate in workshops and events, or simply create your own journey of discovery in this most spectacular landscape.
 
+More information can be found [here](http://www.devonartistnetwork.co.uk/event-series/open-studios-2017)
+
 
