@@ -8,6 +8,8 @@ description:
 Working primarily in oils and acrylics, the canvasses are all rooted in real subject matter but have an air of abstraction. Fascinated by the structure of both faces and flowers, Avenda tends to paint big and bold, looking for light and shape, line and focus.
 {:class='lede' }
 
+intro-image: /img/Anna_Meyer1.jpg
+
 I WENT BY WAY OF SCHIELE
 
 Homages and grafts from Schiele and Klimt continue a conversation already left hanging in the artistic air … and propose a dialogue with painters who will surely follow.
