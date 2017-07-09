@@ -1,8 +1,8 @@
 ---
 layout: portfolio
-title: A challenging concept
+title: Devon Open Studios 2017
 excerpt: >-
-  Meet The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls
+  Meet the artists in their own habitat
 intro-image: /img/800px/spiffingcovers-imac.jpg
 banner-image: /img/1920px/spiffingcovers-imac.jpg
 featured: true
