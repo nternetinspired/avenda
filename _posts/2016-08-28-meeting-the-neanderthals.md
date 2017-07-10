@@ -4,9 +4,9 @@ author: Avenda Burnell Walsh
 category: blog
 layout: post
 ---
-Weeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
+Meeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
 
-Me all have some Neanderthal in our genes, we are now told. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomers. So that is nearly all of us.
+We all have some Neanderthal in our genes, we are now told. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomers. So that is nearly all of us.
 
 Even more interesting, genetic testing has shown these fascinating people were red haired and pale skinned ... sounding wonderfully Celtic to my unscientific brain. And that might have started it really. I saw the reconstructed models and was hooked. I want to find these people. Meet them face to face. The canvasses came out and I let my brushes fly back through the thousands of years.
 
