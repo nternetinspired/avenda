@@ -7,7 +7,7 @@ featured: true
 published: true
 ---
 
-W all have some Neanderthal in our genes, we are now told. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomes. So that is nearly all of us.
+We all have some Neanderthal in our genes, we are now told. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomes. So that is nearly all of us.
 
 ![IMG_1517.JPG]({{site.baseurl}}/media/neandersad.jpg)
 
