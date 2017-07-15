@@ -5,10 +5,7 @@ permalink: /about/
 description: null
 published: true
 ---
-
-<div class="wrapper border-bottom">
-    <img src="{{"/img/Anna_Meyer1.jpg" | prepend: site.baseurl }}" alt="">
-  </div>
+![Anna Meyer]({{site.baseurl}}/media/Anna_Meyer1.jpg)
 
 This year Avenda will be participating in Devon Open Studios which runs from Saturday 9th - Sunday 24th September 2017.
 
