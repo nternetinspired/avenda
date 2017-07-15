@@ -11,6 +11,8 @@ Working primarily in oils and acrylics, the canvasses are all rooted in real sub
 
 ![Anna Meyer]({{site.baseurl}}/media/Anna_Meyer1.jpg)
 
+![Lady With Blue Hat]({{site.baseurl}}/media/Lady_With_Blue_Hat.jpg)
+
 I WENT BY WAY OF SCHIELE
 
 Homages and grafts from Schiele and Klimt continue a conversation already left hanging in the artistic air … and propose a dialogue with painters who will surely follow.
