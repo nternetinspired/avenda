@@ -1,20 +1,20 @@
 ---
 layout: portfolio
-title: A challenging concept
+title: Devon Open Studios 2017
 excerpt: >-
-  Meet The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls
+  Meet the artists in their own habitat
 intro-image: /img/800px/spiffingcovers-imac.jpg
 banner-image: /img/1920px/spiffingcovers-imac.jpg
 featured: true
 published: true
 ---
 
-Meeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
+This year Avenda will be participating in Devon Open Studios which runs from Saturday 9th - Sunday 24th September 2017.
 
-We all have some Neanderthal in our genes, we are now told. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomes. So that is nearly all of us.
+Devon Open Studios is a unique opportunity to meet artists in their studios in some of the most beautiful, unexplored parts of Devon. In addition to being able to buy art direct from the creator, many demonstrate, give talks or give you a chance to have a go.
 
-Even more interesting, genetic testing has shown these fascinating people were red haired and pale skinned ... sounding wonderfully Celtic to my unscientific brain. And that might have started it really. I saw the reconstructed models and was hooked. I want to find these people. Meet them face to face. The canvasses came out and I let my brushes fly back through the thousands of years.
+A cornucopia of art is on offer across Devon when over 200 resident artists and crafts people open their studios to show and sell their individual artworks to the public each September. The diversity of studios is remarkable; as here you can explore venues ranging from potter’s studios in meadows to medieval barns, sinuous sculpture gardens or garrets by the sea. These hidden havens reveal fascinating work in every medium that allows the opportunity to purchase affordable art, directly from the artist, and without gallery commission.
 
-I have been told these paintings are a bit scary, and I have to agree they are. Challenging might be a better word. But I never intended them to be pretty. They are not for the faint hearted. But I am enjoying the process of looking for our ancestors. I never believed the Neanderthals to be unintelligent. It was just a long time ago. I want to imagine them and their lives.
+Venture out on self-guided art tours using our free full colour event guide or just by spontaneously following the yellow arrows scattered about the countryside. Meet the artists, participate in workshops and events, or simply create your own journey of discovery in this most spectacular landscape.
 
-Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, glances, a search for beauty, my unpainted ladies of bare canvas on a painted ground ... these Neanderthals are thickly applied, colourful, vibrant, staring us and each other in the face. I am rather enjoying myself. I am not expecting you to like them.
+
