@@ -20,7 +20,9 @@
       <ul class="nav margin-off">
 
         {% for link in site.data.navigation.secondary %}
-          {% include nav-link.html %}
+        <li>
+          <a href="{{ link.href }}">{{ link.title }}</a>
+        </li>
         {% endfor %}
 
       </ul>

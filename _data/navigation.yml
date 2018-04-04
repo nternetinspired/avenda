@@ -3,18 +3,18 @@
 primary:
   - title: Home
     href: /
-  - title: Bio
+  - title: About
     href: /about/
-  - title: Blog
+  - title: News
     href: /blog/
   - title: Portfolio
     href: /portfolio/
 
 # Secondary nav, naturally
 secondary:
-  - title: facebook_username
-    href: /#
-  - title: instagram_username
-    href: /#
-  - title: twitter_username
-    href: /#
+  - title: Facebook
+    href: https://facebook.com/Rebelwithoutherdrawers
+  - title: Instagram
+    href: https://instagram.com/rebelwithoutherdrawers
+  - title: Twitter
+    href: https://twitter.com/artistavenda

@@ -934,13 +934,10 @@ they look the same but don't carry the semantic baggage.
   margin-top: 0.75em;
   padding: 1.5em 0;
   position: relative; }
-  .h--styled::before {
-    top: -.125em;
+  .h--styled::after {
+    bottom: 0;
     left: 50%; }
   .h--styled::after {
-    bottom: -.125em;
-    left: 50%; }
-  .h--styled::after, .h--styled::before {
     border-bottom: 2px solid #3D9970;
     content: '';
     display: block;

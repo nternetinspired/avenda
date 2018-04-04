@@ -2,8 +2,8 @@
 layout: default
 ---
 
-{% if post.date %}
-{% capture day %}{{ post.date | date: "%-d" }}{% endcapture %}
+{% if page.date %}
+{% capture day %}{{ page.date | date: "%-d" }}{% endcapture %}
 {% capture dayLastTwoDigits %}{{ day | modulo: 100 }}{% endcapture %}
 {% if dayLastTwoDigits >= "11" and dayLastTwoDigits <= "13" %}
     {% assign ordinal = "th" %}
@@ -27,15 +27,15 @@ layout: default
   <div class="container wrapper">
 
     <header class="h--styled text-align--center">
-      <h1 itemprop="name headline">{{ post.title }}</h1>
+      <h1 itemprop="name headline">{{ page.title }}</h1>
       <div class="italic meta muted margin-top--sm">
-        {% if post.date %}Published <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ ordinalDay }}&nbsp;{{ post.date | date: "of %B, %Y" }}</time>{% endif %}
-        {% if post.author %} by
+        {% if page.date %}Published <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ ordinalDay }}&nbsp;{{ page.date | date: "of %B, %Y" }}</time>{% endif %}
+        {% if page.author %} by
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span itemprop="name">{{ post.author }}</span>
+          <span itemprop="name">{{ page.author }}</span>
         </span>
         {% endif %}
-        {% if post.meta %} • {{ post.meta }}{% endif %}
+        {% if page.meta %} • {{ page.meta }}{% endif %}
       </div>
     </header>
 

@@ -2,12 +2,15 @@
 layout: portfolio
 title: Devon Open Studios 2017
 excerpt: >-
-  Meet the artists in their own habitat
-intro-image: /img/800px/spiffingcovers-imac.jpg
-banner-image: /img/1920px/spiffingcovers-imac.jpg
+  A chance to see artists in their own habitat
+intro-image: /img/800px/open-studios-logo-h-59.jpg
+banner-image: /img/1920px/open-studios-logo-h-59.jpg
 featured: true
 published: true
 ---
+<div class="wrapper border-bottom">
+    <img src="{{"/img/Anna-Meyer1.jpg" | prepend: site.baseurl }}" alt="">
+  </div>
 
 This year Avenda will be participating in Devon Open Studios which runs from Saturday 9th - Sunday 24th September 2017.
 
