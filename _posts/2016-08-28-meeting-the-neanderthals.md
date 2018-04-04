@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 author: Avenda Burnell Walsh
 excerpt: Meeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
 category: blog
