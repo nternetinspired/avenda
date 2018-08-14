@@ -1,0 +1,17 @@
+---
+layout: portfolio
+title: Current Exhibition
+excerpt: >-
+  A chance to see Avenda's work
+intro-image: /img/800px/avenda/img/Anna_Meyer1.jpg
+banner-image: /img/1920px/avenda/img/Blue_Hat.jpg
+featured: true
+published: true
+---
+<div class="wrapper border-bottom">
+    <img src="{{"/img/Anna-Meyer1.jpg" | prepend: site.baseurl }}" alt="">
+  </div>
+
+Avenda is exhibiting at the Summer Exhibition Shaldon, Devon, UK at the Victoria Hall 16 to 27 August 2018 (The Visit, Hot Air and Green Flowers 2
+
+She will also be exhibiting at the Pavilions, Teignmouth, Devon, UK in support of The Cause, a new play by Dreadnaught South West about the suffrage campaign by Emmiline Pankhurst and Millicent Fawcett. The exhibition will be from 24 - 28 September 2018. (The Corsets are Off and they are Not going Back On).
