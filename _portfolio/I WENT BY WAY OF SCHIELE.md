@@ -1,7 +1,8 @@
 ---
 layout: portfolio
-title: Meeting The Neanderthals
-excerpt: Meeting The Neanderthals is a series inspired by the forensic reconstruction of ancient skulls.
+title: I WENT BY WAY OF SCHIELE
+excerpt: Homages and grafts from Schiele and Klimt continue a conversation already left hanging in the artistic air … and propose a dialogue with painters who will surely follow.
+These portraits free the real sitters of Holbein, Vermeer and Klimt from the constraints of corsets and convention. It’s 2017 and women will no longer be compelled to be beautiful for their audience; only for themselves, and on their own terms.
 intro-image: /media/neanderhappy.jpg
 featured: true
 published: true
