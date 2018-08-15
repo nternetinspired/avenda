@@ -12,7 +12,7 @@ Bridge Rd, Shaldon, Teignmouth TQ14 0DD
 Next:
 The Cause, at Pavilions, Teignmouth, from 24 to 28 Sept 2018. 
 
-Avenda is creating a new piece of work in support of a new play by <a href="https://www.pavilionsteignmouth.org.uk/events/cause">Dreadnaught</a> South West about the suffrage campaign by Emmiline Pankhurst and Millicent Fawcett (The Corsets are Off and they are Not going Back On).
+Avenda is creating a piece of work in support of a new play by <a href="https://www.pavilionsteignmouth.org.uk/events/cause">Dreadnaught</a> South West about the suffrage campaign by Emmiline Pankhurst and Millicent Fawcett (The Corsets are Off and they are Not going Back On).
 
 
 Pavilions, Den Cresent, Teignmouth TQ14 8BG
