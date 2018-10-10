@@ -1,15 +1,15 @@
 ---
-layout: page
-title: About
-permalink: /about/
-description: null
 published: true
+author: Avenda Burnell Walsh
+excerpt: Working primarily in oils
+category: About
+permalink: /about/
+layout: page
 ---
 
 Working primarily in oils and acrylics, the canvasses are all rooted in real subject matter but have an air of abstraction. Fascinated by the structure of both faces and flowers, Avenda paints big and bold, looking for light and shape, line and focus.
-{:class='lede' }
 
-![Anna Meyer]({{site.baseurl}}/img/Anna_Meyer.jpg)
+![Anna_Meyer1.jpg]({{site.baseurl}}/img/Anna_Meyer.jpg)
 
 THE CORSETS ARE OFF
 
@@ -19,8 +19,8 @@ These portraits free the real sitters of Holbein, Vermeer and Klimt from the con
 
 So what might these sitters have been thinking? Avenda seeks to give them a modern voice. The corsets are off, and they are not going back on. “One is bigger than the other, get over it.” “That’s the last time I’m going to wax my upper lip, get over it.” “This studio is freezing and I’m not even getting the minimum wage.” “No idea what I can make for supper.”
 
-![Lady With Blue Hat]({{site.baseurl}}/img/Blue_Hat.jpg)
+![Blue_Hat.jpg]({{site.baseurl}}/img/Blue_Hat.jpg)
 
-![Anne of Cleves]({{site.baseurl}}/img/Anne of Cleves.jpg)
+![Anne of Cleves.jpg]({{site.baseurl}}/img/Anne of Cleves.jpg)
 
-![Lady With White Coif]({{site.baseurl}}/img/White_Coif.jpg)
+![White_Coif.jpg]({{site.baseurl}}/img/White_Coif.jpg)
