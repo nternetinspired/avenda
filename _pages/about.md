@@ -19,8 +19,8 @@ These portraits free the real sitters of Holbein, Vermeer and Klimt from the con
 
 So what might these sitters have been thinking? Avenda seeks to give them a modern voice. The corset is off, and it is not going back on.  “One is bigger than the other, get over it.” “That’s the last time I’m going to wax my upper lip, get over it.” ”This studio is freezing and I’m not even getting the minimum wage.” “No idea what I can make for supper.”
 
-![Lady With Blue Hat]({{site.baseurl}}/media/Lady_With_Blue_Hat.jpg)
+![Lady With Blue Hat]({{site.baseurl}}/img/Blue_Hat.jpg)
 
-![Anne of Cleves]({{site.baseurl}}/media/Anne_of_Cleves.jpg)
+![Anne of Cleves]({{site.baseurl}}/img/Anne of Cleves.jpg)
 
-![Lady With White Coif]({{site.baseurl}}/media/Lady_With_White_Coif.jpg)
+![Lady With White Coif]({{site.baseurl}}/img/White_Coif.jpg)
