@@ -7,7 +7,7 @@ layout: post
 ---
 Avenda has been invited to be part of the Devon Open Studios 2017 which is happening from Saturday 9th - Sunday 24th September 2017
 
-![Anna_Meyer1.jpg]({{site.baseurl}}/media/Anna_Meyer1.jpg)
+![Anna_Meyer1.jpg]({{site.baseurl}}/img/Anna_Meyer.jpg)
 
 Devon Open Studios is a unique opportunity to meet artists in their studios in some of the most beautiful,
 unexplored parts of Devon. In addition to being able to buy art direct from the creator, many demonstrate,
