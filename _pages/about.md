@@ -11,7 +11,7 @@ Working primarily in oils and acrylics, the canvasses are all rooted in real sub
 
 ![Anna Meyer]({{site.baseurl}}/img/Anna_Meyer.jpg)
 
-I WENT BY WAY OF SCHIELE
+THE CORSETS ARE OFF
 
 Homages and grafts from Schiele and Klimt continue a conversation already left hanging in the artistic air … and propose a dialogue with painters who will surely follow.
 
