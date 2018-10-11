@@ -1,12 +1,10 @@
 ---
----
 layout: page
 title: About
 permalink: /about/
 description: null
 published: true
 ---
-
 Working primarily in oils and acrylics, the canvasses are all rooted in real subject matter but have an air of abstraction. Fascinated by the structure of both faces and flowers, Avenda paints big and bold, looking for light and shape, line and focus.
 
 ![Anna_Meyer1.jpg]({{site.baseurl}}/img/Anna_Meyer.jpg)
