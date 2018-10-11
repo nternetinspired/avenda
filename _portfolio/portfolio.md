@@ -16,3 +16,5 @@ I have been told these paintings are a bit scary, and I have to agree they are. 
 Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, glances, a search for beauty, my unpainted ladies of bare canvas on a painted ground ... these Neanderthals are thickly applied, colourful, vibrant, staring us and each other in the face. I am rather enjoying myself. I am not expecting you to like them."
 
 ![image1.JPG]({{site.baseurl}}/media/neanderhappy.jpg)
+
+![Meeting_Neanderthal 3.jpg]({{site.baseurl}}/img/Meeting_Neanderthal 3.jpg)
