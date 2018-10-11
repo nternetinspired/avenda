@@ -56,11 +56,6 @@ permalink: /
       {% for post in site.portfolio %}
           {% unless post.archived %}
             {% if post.featured %}
-
-              <div class="wow fadeInUp grid-item flex-even">
-                {% include portfolio-intro.html %}
-              </div>
-
             {% endif %}
           {% endunless %}
         {% endfor %}
