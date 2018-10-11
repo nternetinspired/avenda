@@ -1,14 +1,11 @@
 ---
 layout: portfolio
-title: I WENT BY WAY OF SCHIELE
-excerpt: Homages and grafts from Schiele and Klimt continue a conversation already left hanging in the artistic air … and propose a dialogue with painters who will surely follow.
-These portraits free the real sitters of Holbein, Vermeer and Klimt from the constraints of corsets and convention. It’s 2017 and women will no longer be compelled to be beautiful for their audience; only for themselves, and on their own terms.
-intro-image: /media/Anne_of_Cleves.jpg
+title: portfolio
+excerpt: We all have some Neanderthal in our genes, it transpires
 featured: true
 published: true
 ---
-
-We all have some Neanderthal in our genes, we are now told. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomes. So that is nearly all of us.
+We all have some Neanderthal in our genes, it transpires. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomes. So that is nearly all of us.
 
 ![IMG_1517.JPG]({{site.baseurl}}/media/neandersad.jpg)
 
