@@ -5,7 +5,7 @@ permalink: /about/
 description: null
 published: true
 ---
-Working primarily in oils and acrylics, the canvasses are all rooted in real subject matter but have an air of abstraction. Fascinated by the structure of both faces and flowers, Avenda paints big and bold, looking for light and shape, line and focus.
+In her figurative work Avenda seeks out unlikely physical shifts to reveal an inherent awkwardness, throwing into question what we are led to believe is beauty and beautiful. In the media circus of the 21st century we are bombarded by images of apparent perfection, yet we appear to miss the entire point of the beauty of soul. Avenda’s series The Corsets Are Off holds a mirror to our own vulnerabilities and asks us to think again. Hence her work looks back over centuries of portraiture and re-evaluates the place of women in societies that demanded beauty from them. Often multilayered, Avenda’s images demand we question the fragility and instability of our seemingly certain reality. Using abstraction she creates intense personal moments masterfully created by means of rules and omissions, acceptance and refusal, luring the viewer round and round in circles. Her paintings become fascinating, new brushstrokes and colours emerging over time, the whole growing more precious the longer it is viewed. These are not works you tire of.
 
 ![Anna_Meyer1.jpg]({{site.baseurl}}/img/Anna_Meyer.jpg)
 
