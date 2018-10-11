@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 description: null
-published: true
+published: false
 ---
 ![Anna Meyer]({{site.baseurl}}/media/Anna_Meyer1.jpg)
 
