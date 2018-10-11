@@ -53,10 +53,7 @@ permalink: /
           You can see a small catalogue of my artwork in <a href="{{ "/portfolio" | prepend: site.baseurl }}">my Portfolio</a>
         </p>
       </header>
-
-      <div class="grid grid--padded">
-
-        {% for post in site.portfolio %}
+      {% for post in site.portfolio %}
           {% unless post.archived %}
             {% if post.featured %}
 
