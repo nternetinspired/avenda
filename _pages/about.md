@@ -22,4 +22,7 @@ So what might these sitters have been thinking? Avenda seeks to give them a mode
 ![Anne of Cleves.jpg]({{site.baseurl}}/img/Anne of Cleves.jpg)
 
 ![White_Coif.jpg]({{site.baseurl}}/img/White_Coif.jpg)
+
+![Mrs-Pankhurst.jpg]({{site.baseurl}}/img/Mrs-Pankhurst.jpg)
+
 Often multilayered, Avenda’s images demand we question the fragility and instability of our seemingly certain reality. Using abstraction she creates intense personal moments masterfully created by means of rules and omissions, acceptance and refusal, luring the viewer round and round in circles. Her paintings become fascinating, new brushstrokes and colours emerging over time, the whole growing more precious the longer it is viewed. These are not works you tire of.
