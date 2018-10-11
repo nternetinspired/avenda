@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio of work
+title: Portfolio
 permalink: /portfolio/
 featured: true
 published: true
