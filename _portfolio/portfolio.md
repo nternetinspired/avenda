@@ -1,7 +1,7 @@
 ---
-layout: portfolio
+layout: page
 title: portfolio
-excerpt: We all have some Neanderthal in our genes, it transpires
+permalink: /portfolio/
 featured: true
 published: true
 ---
