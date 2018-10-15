@@ -22,7 +22,7 @@ Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, 
 
 
 <h2>Four Seasons</h2>
-<h4>A series offering the four seasons of woman. Not by colour but by emotion, maturity, love, life and pain</h4>
+<h5>A series offering the four seasons of woman. Not by colour but by emotion, maturity, love, life and pain</h5>
 
 ![Spring]({{site.baseurl}}/img/spring.jpg)
 
