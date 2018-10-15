@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Current work
+title: The Corsets Are Off
 permalink: /about/
 description: null
 published: true
 ---
-Avenda’s ongoing series, The Corsets Are Off, holds a mirror to our own vulnerabilities and asks us to think again. In the media circus of the 21st century we are bombarded by images of apparent perfection, yet we appear to miss the entire point of the beauty of soul. Her work looks back over centuries of portraiture and re-evaluates the place of women in societies that demanded beauty from them. In her figurative work Avenda seeks out unlikely physical shifts to reveal an inherent awkwardness, throwing into question what we are led to believe is beauty and beautiful. 
+Avenda’s ongoing series holds a mirror to our own vulnerabilities and asks us to think again. In the media circus of the 21st century we are bombarded by images of apparent perfection, yet we appear to miss the entire point of the beauty of soul. Her work looks back over centuries of portraiture and re-evaluates the place of women in societies that demanded beauty from them. In her figurative work Avenda seeks out unlikely physical shifts to reveal an inherent awkwardness, throwing into question what we are led to believe is beauty and beautiful. 
 
 ![Anna_Meyer1.jpg]({{site.baseurl}}/img/Anna_Meyer.jpg)
 "I've been doing that pious angel face thing for six hours already, and I'm not sure how much longer I can keep it up." Anna Meyer
