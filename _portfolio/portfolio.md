@@ -5,7 +5,7 @@ permalink: /portfolio/
 featured: true
 published: true
 ---
-<h2>Meet the Neanderthals</h2>
+<h3>Meet the Neanderthals</h3>
 We all have some Neanderthal in our genes, it transpires. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomers. So that is nearly all of us, From China to Australia.
 
 ![IMG_1517.JPG]({{site.baseurl}}/media/neandersad.jpg)
@@ -21,8 +21,7 @@ Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, 
 ![Meeting_Neanderthal 3.jpg]({{site.baseurl}}/img/Meeting_Neanderthal 3.jpg)
 
 
-<h2>Four Seasons</h2>
-Offering the four seasons of woman, not by colour but by emotion, maturity, love, life and pain
+<h3>Four Seasons</h3>The four seasons of woman, not by colour but by emotion, maturity, love, life and pain
 
 ![Spring]({{site.baseurl}}/img/spring.jpg)
 
