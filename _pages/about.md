@@ -24,7 +24,7 @@ Homages and grafts from Schiele and Klimt continue a conversation already left h
 “That’s the last time I’m going to wax my upper lip, get over it. And you're no oil painting yourself Henry. Just saying.” Anne of Cleves
 
 ![White_Coif.jpg]({{site.baseurl}}/img/White_Coif.jpg)
-“Yes, one is bigger than the other, get over it. This studio is freezing and I’m not even getting the minimum wage. No idea what I can make for supper.” 
+“Yes, one is bigger than the other, get over it. This studio is freezing and I’m not even getting the minimum wage. No idea what I can make for supper.” Woman with white linen coif
 
 ![Mrs-Pankhurst.jpg]({{site.baseurl}}/img/Mrs-Pankhurst.jpg)
 “Revenge is a dish best eaten cold. The gloves, and corsets, are off now. You should have done your history Mr Policeman. Book of Judith, Holofernes. Quite clever people us women. We can play cat and mouse too.” Emmeline Pankhurst
