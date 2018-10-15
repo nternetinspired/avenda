@@ -22,11 +22,11 @@ Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, 
 
 
 <h2>Four Seasons</h2>
-<h4>Offering the four seasons of woman, not by colour but by emotion, maturity, love, life and pain</h4>
+Offering the four seasons of woman, not by colour but by emotion, maturity, love, life and pain
 
 ![Spring]({{site.baseurl}}/img/spring.jpg)
 
-<h4>Spring</h4> she breaks just like a little girl ... but she looks like a quick learner
+Spring: she breaks just like a little girl ... but she looks like a quick learner
 
 ![Summer]({{site.baseurl}}/img/summer.jpg)
 
