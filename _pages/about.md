@@ -10,8 +10,7 @@ Avenda’s ongoing series holds a mirror to our own vulnerabilities and asks us 
 ![Anna_Meyer1.jpg]({{site.baseurl}}/img/Anna_Meyer.jpg)
 "I've been doing that pious angel face thing for six hours already, and I'm not sure how much longer I can keep it up." Anna Meyer
 
-<h2>The Corsets Are Off
-... and they are not going back on</h2>
+<h3>The Corsets Are Off ... and they are not going back on</h3>
 These portraits free the real sitters of Holbein, Vermeer and Klimt from the constraints of corsets and convention. It’s the 21st century and women will no longer be compelled to be beautiful for their audience; only for themselves, and on their own terms.
 
 So what might these sitters have been thinking? Avenda seeks to give them a modern voice. The corsets are off, and they are not going back on.
