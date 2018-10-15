@@ -18,3 +18,14 @@ Hence a departure from my traditionally tranquil faces ... thinly drawn smiles, 
 ![image1.JPG]({{site.baseurl}}/media/neanderhappy.jpg)
 
 ![Meeting_Neanderthal 3.jpg]({{site.baseurl}}/img/Meeting_Neanderthal 3.jpg)
+
+FOUR SEASONS A series offering the four seasons of woman. Not by colour but by emotion, maturity, love, life and pain.
+
+IMG_1517.JPG
+Spring: she breaks just like a little girl ... but she looks like a quick learner
+
+Summer: girl, no pearl, a little flushed in the cheek ... either contemplating bed or just indulged I think
+
+Autumn: the crying game ... maybe no stranger to a breaken heart ... or possibly the heartbreaker
+
+Winter: the ice queen has been around the emotional block a few times ... I wouldn't mess with this one
