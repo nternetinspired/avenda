@@ -15,11 +15,9 @@ permalink: /portfolio/
     </div>
     {% endif %}
   {% endunless %}
-{% endfor %}
-  
-  <img src="/media/Anne_of_Cleves.jpg" alt="Anne of Cleves" imgsize="50%/>                                                                 
+{% endfor %}                                                            
 
-{% for post in site.work %}
+{% for post in site.portfolio %}
   {% unless post.archived %}
     {% unless post.featured %}
     <div class="grid-item md--flex-even wow fadeInUp">
@@ -27,8 +25,6 @@ permalink: /portfolio/
     </div>
     {% endunless %}
   {% endunless %}
-{% endfor %}
-                                                     
-<img src="/img/god_counts_the_tears.jpg" alt="God Counts The Tears"/>                                                     
+{% endfor %}                                               
 
 </div>
