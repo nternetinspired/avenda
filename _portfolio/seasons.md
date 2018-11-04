@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Four Seasons
-permalink: /seasons/
+permalink: /portfolio/
 featured: true
 published: true
 ---
