@@ -7,10 +7,8 @@ primary:
     href: /about/
   - title: Sketchbook notes
     href: /blog/
-  - title: Neanderthals
-    href: /portfolio/neanderthal
-  - title: Seasons
-    href: /portfolio/seasons
+  - title: Portfolio
+    href: /portfolio/
 
 # Secondary nav, naturally
 secondary:
