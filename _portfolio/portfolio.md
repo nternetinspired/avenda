@@ -1,11 +1,10 @@
 ---
 layout: page
-title: meet the neanderthals
+title: Meet the Neanderthals
 permalink: /portfolio/
 featured: true
 published: true
 ---
-<h3>Meet the Neanderthals</h3>
 We all have some Neanderthal in our genes, it transpires. The only current humans without a trace of these interesting ancestors are people from Africa whose distant relatives have never left the continent of Africa or mixed with incomers. So that is nearly all of us, From China to Australia.
 
 ![IMG_1517.JPG]({{site.baseurl}}/media/neandersad.jpg)
