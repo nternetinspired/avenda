@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Portfolio
+title: meet the neanderthals
 permalink: /portfolio/
 featured: true
 published: true
