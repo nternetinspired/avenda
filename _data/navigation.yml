@@ -8,9 +8,9 @@ primary:
   - title: Sketchbook notes
     href: /blog/
   - title: Neanderthals
-    href: /portfolio/
+    href: /portfolio/neanderthal
   - title: Seasons
-    href: /portfolio/
+    href: /portfolio/seasons
 
 # Secondary nav, naturally
 secondary:
