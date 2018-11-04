@@ -1,13 +1,11 @@
 ---
 layout: page
-title: four seasons
+title: Four Seasons
 featured: true
 published: true
 excerpt: the four seasons of woman
 intro-image: /img/spring.jpg
 ---
-
-Four Seasons
 
 The four seasons of woman, not by colour but by emotion, maturity, love, life and pain
 
