@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Meet the Neanderthals
-permalink: /neanderthals/
+permalink: /portfolio/
 featured: true
 published: true
 ---
