@@ -9,5 +9,5 @@ Doodling away here in Dublin, a long way from paints and easel, but I want to se
 ![7858E166-2365-4041-B5FF-9FD78B67688D.jpeg]({{site.baseurl}}/img/7858E166-2365-4041-B5FF-9FD78B67688D.jpeg)
 I like the idea of women in history having their freedom early, so musicians unrestrained appeals.
 ![9EBE47EF-0312-416D-BF04-3423F6B15A1A.jpeg]({{site.baseurl}}/img/9EBE47EF-0312-416D-BF04-3423F6B15A1A.jpeg)
-I did wander down the road of footbinding, as in Finally Our Feet Are Free, then quickly realised we have replaced Chinese torture with self imposed stiletto heels. Argh.
+I did wander down the road of footbinding, as in Finally Our Feet Are Free, then quickly realised we have replaced Chinese torture with self imposed stiletto heels. Argh. Think my subjects could be sporting Doc Martens.
 ![ADDB743D-77A5-4D42-AC7D-E0544039F24A.jpeg]({{site.baseurl}}/img/ADDB743D-77A5-4D42-AC7D-E0544039F24A.jpeg)
