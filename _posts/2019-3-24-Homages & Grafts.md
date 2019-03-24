@@ -6,5 +6,5 @@ category: blog
 layout: post
 ---
 Three little girls from school are we ...
-![Mrs-Pankhurst.jpg]({{site.baseurl}}/img/Mrs-Pankhurst.jpg)
+![4C837D1D-7D6B-4F66-8839-3026CF856771.jpg]({{site.baseurl}}/img/4C837D1D-7D6B-4F66-8839-3026CF856771.jpeg)
 Home now and cranking up the easel. Enjoying moving piant around again.
