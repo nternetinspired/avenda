@@ -1,3 +1,4 @@
+---
 published: true
 author: Avenda Burnell Walsh
 excerpt: No easel, no canvas
